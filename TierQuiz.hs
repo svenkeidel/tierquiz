@@ -1,6 +1,7 @@
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE TupleSections #-}
+{-# LANGUAGE RankNTypes #-}
 module TierQuiz where
 
 import           Sentence
@@ -20,6 +21,7 @@ import           GHC.Generics
 import           System.Exit (die)
 
 import           Text.Printf
+import           Data.Monoid((<>))
 
 type Species = [Text]
 type Distribution = Text
@@ -72,14 +74,13 @@ maskSpecies animal = replaceByDots $
    replaceByDots :: [Text] -> Text -> Text
    replaceByDots rs t = foldr (\r -> T.replace r "...") t rs
 
-
-printAttribute :: Animal -> Text -> [MaskedSentence] -> IO ()
-printAttribute animal attr txt = do
-  T.putStr "\n### "
-  T.putStr attr
-  T.putStr " ###\n"
-  T.putStrLn (maskSpecies animal (composeSentences (map shownText txt)))
-  T.putStrLn ""
+printAttribute :: Animal -> Text -> [MaskedSentence] -> Text
+printAttribute animal attr txt =
+  "\n### " <>
+  attr <>
+  " ###\n" <>
+  (maskSpecies animal (composeSentences (map shownText txt))) <>
+  "\n"
 
 type Difficulty = Int
 guessSpecies :: Animal -> Difficulty -> IO ()
@@ -105,7 +106,7 @@ guessSpecies animal difficulty = do
       ((attr,txt):rest)
         | null txt -> loop rest
         | otherwise -> do
-            printAttribute animal attr txt
+            T.putStrLn $ printAttribute animal attr txt
             guessOrTip attr txt rest
       [] ->
         T.putStrLn $ "Es gibt keine weiteren Hinweise mehr. Die Antwort lautet "
@@ -127,7 +128,7 @@ guessSpecies animal difficulty = do
            loop rest
         'm' -> do
           txt' <- revealSentence txt
-          printAttribute animal attr txt'
+          T.putStrLn $ printAttribute animal attr txt'
           guessOrTip attr txt' rest
         _ -> guessOrTip attr txt rest
 

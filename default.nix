@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 
 let hsEnv = pkgs.haskellPackages.ghcWithPackages(p: with p; [
-    Cabal cabal-install mtl text aeson MonadRandom
+    Cabal cabal-install mtl text aeson MonadRandom threepenny-gui
   ]);
 
 in pkgs.stdenv.mkDerivation {
