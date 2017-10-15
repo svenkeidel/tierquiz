@@ -1,0 +1,28 @@
+body {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 1em;
+  margin: auto;
+  max-width: 42em;
+}
+
+img {
+  width:60%;
+  height:auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+button {
+    margin: 0.2em
+}
