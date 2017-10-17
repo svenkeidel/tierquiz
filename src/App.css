@@ -6,7 +6,7 @@ body {
   max-width: 42em;
 }
 
-img {
+#animal {
   width:60%;
   height:auto;
 }
@@ -23,6 +23,27 @@ h3 {
     font-size: 16px;
 }
 
+p {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  lang: "de"
+}
+
 button {
     margin: 0.2em
+}
+
+.trivia {
+  width:85%;
+  display: inline-block;
+  marin: 0px;
+  -webkit-margin-before: 0px;
+}
+
+.checkcircle {
+  width:1.2em;
+  height:auto;
+  margin:0.2em 0.5em 0em 0em;
+  float:left
 }
