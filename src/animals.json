@@ -150,7 +150,7 @@
         "socialStructure":"Von anderen großen Wildhunden weichen Mähnenwölfe in der Lebensweise beträchtlich ab. Sie bilden keine Rudel. Männchen und Weibchen bewohnen zusammen ein Territorium, doch gehen sie meist eigene Wege und jagen getrennt. Von anderen großen Wildhunden weichen Mähnenwölfe in der Lebensweise beträchtlich ab. Sie bilden keine Rudel. Männchen und Weibchen bewohnen zusammen ein Territorium, doch gehen sie meist eigene Wege und jagen getrennt."
     },
     {
-        "species": [ "Schuhschnabel", "Schuhschnäbel" ],
+        "species": [ "Schuhschnabel", "Schuhschnäbel", "Schuhschnabels" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Balaeniceps_rex_qtl2.jpg",
         "taxonomy": {
             "order":"Ruderfüßer",
@@ -243,7 +243,7 @@
        "species": ["Orang-Utan", "Orang-Utans"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/d/d3/OrangutanP1.jpg",
        "taxonomy": {
-           "order":"Affen",
+           "order":"Primaten",
            "family":"Menschenaffen"
        },
        "distribution":"Noch vor einer Million Jahren kamen die Orang-Utans in ausgedehnten Gebieten Südostasiens vor. Ihr ursprüngliches Verbreitungsgebiet reichte vom südlichen China über Thailand, Vietnam bis nach Java, was durch Fossilienfunde in Südchina, Vietnam und der Insel Java belegt ist. In Teilen dieses Gebietes dürften sie zumindest bis vor wenigen tausend Jahren überlebt haben.\nOrang-Utans kommen heute nur mehr auf den Inseln Borneo und Sumatra vor. Auf Sumatra bewohnen sie die nordwestlichen Regionen und Teile der Westküste, auf Borneo sind sie vorwiegend in den südlichen und östlichen Regionen anzutreffen.",

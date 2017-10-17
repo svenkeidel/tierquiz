@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/lib/Button';
+import Form from 'react-bootstrap/lib/Form'
+import FormControl from 'react-bootstrap/lib/FormControl'
+import FormGroup from 'react-bootstrap/lib/FormGroup'
+import ControlLabel from 'react-bootstrap/lib/ControlLabel'
+
 import './App.css';
 import animals from './animals.json';
+
 import noCheckCircle from './no_check_circle.svg';
 import yesCheckCircle from './yes_check_circle.svg';
 import emptyCheckCircle from './empty_check_circle.svg';
-
 import levenshtein from 'js-levenshtein';
 
 const minimum = (numArray) => Math.min.apply(null, numArray);
@@ -45,11 +51,16 @@ const revealNth = (n) => (maskedSentences) => {
   return maskedSentences
 }
 
-const completelyRevealed = (maskedSentences) => maskedSentences.every(s => s.masked === "shown")
+const maskText = (animal) => (text) => {
+  let masks = animal.species.concat(animal.species.map(s => s.toLowerCase())).reverse()
+  masks.push(animal.taxonomy.order)
+  masks.push(animal.taxonomy.family)
+  return masks.reduce((t,s) => t.replace(s,"..."),text)
+};
 
 const printMaskedSentence = (animal,onClick) => (maskedSentence,i) => {
   if(maskedSentence.masked === "shown")
-    return maskSpecies(animal)(maskedSentence.text + ". ")
+    return maskText(animal)(maskedSentence.text + ". ")
   else
       return <a onClick={() => onClick(i)}>[...] </a>;
 };
@@ -57,11 +68,6 @@ const printMaskedSentence = (animal,onClick) => (maskedSentence,i) => {
 const printMaskedSentences = (animal,onClick,maskedSentences) => maskedSentences.map(printMaskedSentence(animal,onClick))
 
 const splitIntoSentences = (text) => text.split(/\.|\n/).map(s => s.trim()).filter(s => s.length !== 0)
-
-const maskSpecies = (animal) => (text) => {
-  let species = animal.species.concat(animal.species.map(s => s.toLowerCase()))
-  return species.reduce((t,s) => t.replace(s,"..."),text)
-};
   
 const animalAttributes = [
     {attribute: "Verbreitung",    text:  (animal) => animal.distribution },
@@ -113,12 +119,9 @@ class AnimalAttribute extends Component {
         <h3>{this.props.attr.attribute}</h3>
         { this.props.attr.hasOwnProperty('text')
           ?
-          <div>
-            <p lang="de">{printMaskedSentences(this.props.animal,(n) => this.revealNth(n),this.state.text)}</p>
-            <button disabled={completelyRevealed(this.state.text)} onClick={() => this.revealRandom()}>Zufälliger Tip</button>
-          </div>
+          <p lang="de">{printMaskedSentences(this.props.animal,(n) => this.revealNth(n),this.state.text)}</p>
           :
-          <img className="animal" src={this.state.attr.image} alt="Abbildung des Tiers"/>
+          <img className="animal" src={this.state.image} alt="Abbildung des Tiers"/>
         }
       </div>
     );
@@ -129,19 +132,17 @@ class Guesser extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      answer: null,
+      answer: "",
       resolved: false
     };
   }
 
-  answer() {
-    var name = document.getElementById('guess').value
-    document.getElementById('guess').value = ""
-    this.setState({answer: name})
+  handleChange(e) {
+    this.setState({answer: e.target.value})
   }
 
   answered() {
-    return this.state.answer !== null
+    return this.state.answer !== ""
   }
 
   answeredCorrectly() {
@@ -152,23 +153,50 @@ class Guesser extends Component {
     this.setState({resolved:true})
   }
 
+  getValidationState() {
+    if(this.answered()) {
+      const correct = this.answeredCorrectly();
+      if (correct === 0) return 'success';
+      else if (correct <= 2) return 'warning';
+      else if (correct >= 3) return 'error';
+    } else {
+      return null;
+    }
+  }
+
   render() {
     if(this.state.resolved) {
-      return (<p>Die Lösung ist {this.props.animal.species[0]}</p>);
+      return (
+        <div>
+          <h2>Die Lösung ist {this.props.animal.species[0]}</h2>
+          <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
+        </div>
+      );
     } else if(this.answered() && this.answeredCorrectly() === 0) {
       return (
-        <p>Korrekt. Gratulation</p>
+        <div>
+          <h2>Korrekt. Gratulation</h2>
+          <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
+        </div>
       );
     } else {
       return (
         <div>
-          {! this.props.furtherHints && <button onClick={() => this.props.onHint()}>Nächste Kategorie</button>}
-          <p>
-            Name des Tiers: <input id="guess" type="text"></input><button onClick={() => this.answer()}>Tip abgeben</button>
-          </p>
-          {this.answered() && this.answeredCorrectly() >= 3 && <p>Nicht korrekt, rate weiter</p>}
-          {this.answered() && this.answeredCorrectly() <= 2 && <p>Fast richtig, {this.answeredCorrectly()} Tippfehler</p>}
-          <button onClick={() => this.resolve()}>Auflösen</button>
+          <Form inline>
+            <FormGroup
+              controlId="formBasicText"
+              validationState={this.getValidationState()}
+            >
+              <ControlLabel>Name des Tiers</ControlLabel>
+              <FormControl
+                type="text"
+                value={this.state.answer}
+                placeholder="Name des Tiers"
+                onChange={(s) => this.handleChange(s)}
+              />
+            </FormGroup>
+            <Button onClick={() => this.resolve()}>Auflösen</Button>
+          </Form>
         </div>
       );
     }
@@ -194,7 +222,8 @@ class GuessAnimal extends Component {
       <div>
         <h1>Errate das Tier</h1>
         {animalAttributes.slice(0,this.state.lastAttr).map((attr,i) => <AnimalAttribute key={i.toString()} animal={this.animal} attr={animalAttributes[i]} difficulty={this.props.difficulty}/>)}
-        <Guesser animal={this.animal} onHint={() => this.nextCategory()} furtherHints={this.state.lastAttr >= animalAttributes.length}/>
+        <Guesser animal={this.animal} />
+        {this.state.lastAttr < animalAttributes.length && <Button onClick={() => this.nextCategory()}>Nächste Kategorie</Button>}
       </div>
     );
   }
@@ -241,17 +270,15 @@ class AnimalTrivia extends Component {
     return (
       <div>
         <h3>{this.props.attr.attribute}</h3>
-        { this.props.attr.hasOwnProperty('text')
-          ?
-          this.state.animals.map((animal,i) =>
-            <div>
-              <CheckCircle revealed={this.state.revealed} condition={animal.animal === this.animal} onClick={() => this.revealAnswer()} />
-              <p lang="de" className="trivia">{printMaskedSentences(animal.animal,(n) => this.revealNth(i,n),animal.text)}</p>
-            </div>
-          )
-          :
-          this.state.animals.map((animal) => <img src={animal.image} alt="Abbildung des Tiers"/>)
-        }
+
+        {this.state.animals.map((animal,i) =>
+          <div>
+            <CheckCircle revealed={this.state.revealed} condition={animal.animal === this.animal} onClick={() => this.revealAnswer()} />
+            { this.props.attr.hasOwnProperty('text')
+              ? <p className="trivia">{printMaskedSentences(animal.animal,(n) => this.revealNth(i,n),animal.text)}</p>
+              : <img className="animal" src={animal.image} alt="Abbildung des Tiers"/> }
+          </div>
+        )}
       </div>
     );
   }
@@ -333,8 +360,8 @@ class GameSelector extends Component {
       return (
         <div>
           <h1>Wähle ein Spiel</h1>
-          <button onClick={() => this.guessAnimal()}>Rate das Tier</button>
-          <button onClick={() => this.guessTrivia()}>Tier Trivia</button>
+          <Button onClick={() => this.guessAnimal()}>Rate das Tier</Button>
+          <Button onClick={() => this.guessTrivia()}>Tier Trivia</Button>
         </div>
       );
 
@@ -342,8 +369,8 @@ class GameSelector extends Component {
       return (
         <div>
           <h1>Wähle ein Tier</h1>
-          <p><button onClick={() => this.selectRandomAnimal()}>Zufällig</button></p>
-          {animals.map((animal,i) => <button key={i.toString()} onClick={() => this.setAnimal(animal)}>{i}</button>)}
+          <p><Button onClick={() => this.selectRandomAnimal()}>Zufällig</Button></p>
+          {animals.map((animal,i) => <Button key={i.toString()} onClick={() => this.setAnimal(animal)}>{i}</Button>)}
         </div>
       );
 
@@ -351,7 +378,7 @@ class GameSelector extends Component {
       <div>
         <h1>Wähle eine Schwierigkeitsstuffe</h1>
         {this.difficulties.map((d,i) =>
-         <button key={i.toString()} onClick={() => this.setDifficulty(d.difficulty)}>{d.label}</button>)}
+         <Button key={i.toString()} onClick={() => this.setDifficulty(d.difficulty)}>{d.label}</Button>)}
       </div>
     );
   }
