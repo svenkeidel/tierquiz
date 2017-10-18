@@ -330,7 +330,7 @@
        "socialStructure":"Das Elchgeweih ist im Herbst, zum Beginn der Brunft ausgewachsen. Dann streifen die Bullen die Basthaut des Geweihs an Bäumen und Sträuchern ab. Mit gefegtem Geweih stellen die Bullen in Übungskämpfen eine Rangordnung fest. Diese Kämpfe werden noch nicht mit aller Kraft geführt. Wenn der Platzhalter Mitte September die Kühe gegen seine Rivalen verteidigt, werden aus Drohgebärden und leichtem Drücken und Schieben wütende Zweikämpfe. Doch selbst in dieser Phase versuchen die Bullen Kraft zu sparen und ihre Gegner einzuschüchtern, indem sie mit ihrem Geweih Sträucher und Büsche bearbeiten. Während der Brunft nehmen die Bullen kaum Nahrung auf und verlieren stark an Gewicht."
    },
    {
-       "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfuchse", "Rotfuches"],
+       "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfüchse", "Rotfuches"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg",
        "taxonomy": {
            "order":"Raubtiere",

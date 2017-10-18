@@ -52,9 +52,7 @@ const revealNth = (n) => (maskedSentences) => {
 }
 
 const maskText = (animal) => (text) => {
-  let masks = animal.species.concat(animal.species.map(s => s.toLowerCase())).reverse()
-  masks.push(animal.taxonomy.order)
-  masks.push(animal.taxonomy.family)
+  let masks = animal.species.concat(animal.species.map(s => s.toLowerCase()))
   return masks.reduce((t,s) => t.replace(s,"..."),text)
 };
 
