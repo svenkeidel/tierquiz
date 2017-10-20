@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "type": "array",
+  "format": "table",
+  "items": {
+    "title": "Tier", 
+    "type": "object",
+    "properties": {
+      "species": {
+        "title": "Spezies", 
+        "description": "Liste von Tier namen. Namen werden von rechts nach links aus dem Text enfernt.", 
+        "type": "array",
+        "items": {"type": "string"}
+      }, 
+      "image": {
+        "title": "Bild", 
+        "description": "URL zu einem Bild des Tieres.", 
+        "type": "string"
+      }, 
+      "taxonomy": {
+        "title": "Systematik", 
+        "type": "object",
+        "properties": {
+          "order": {
+            "title": "Ordnung", 
+            "type": "string"
+          },
+          "family": {
+            "title": "Familie", 
+            "type": "string"
+          } 
+        } 
+      },
+      "characteristic":  {"title": "Aussehen", "type": "string"}, 
+      "distribution":    {"title": "Verbreitung", "type": "string"}, 
+      "habitat":         {"title": "Lebensraum", "type": "string"}, 
+      "behavior":        {"title": "Verhalten", "type": "string"}, 
+      "diet":            {"title": "Ernährung", "type": "string"}, 
+      "reproduction":    {"title": "Vermehrung", "type": "string"}, 
+      "socialStructure": {"title": "Sozialverhalten", "type": "string"}
+    }
+  }
+}

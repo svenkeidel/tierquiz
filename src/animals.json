@@ -330,7 +330,7 @@
        "socialStructure":"Das Elchgeweih ist im Herbst, zum Beginn der Brunft ausgewachsen. Dann streifen die Bullen die Basthaut des Geweihs an Bäumen und Sträuchern ab. Mit gefegtem Geweih stellen die Bullen in Übungskämpfen eine Rangordnung fest. Diese Kämpfe werden noch nicht mit aller Kraft geführt. Wenn der Platzhalter Mitte September die Kühe gegen seine Rivalen verteidigt, werden aus Drohgebärden und leichtem Drücken und Schieben wütende Zweikämpfe. Doch selbst in dieser Phase versuchen die Bullen Kraft zu sparen und ihre Gegner einzuschüchtern, indem sie mit ihrem Geweih Sträucher und Büsche bearbeiten. Während der Brunft nehmen die Bullen kaum Nahrung auf und verlieren stark an Gewicht."
    },
    {
-       "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfüchse", "Rotfuches"],
+       "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfüchse", "Rotfuches", "Stadtfuchs", "Stadtfüchse"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg",
        "taxonomy": {
            "order":"Raubtiere",
@@ -346,7 +346,7 @@
    },
    {
        "species": ["Wolf", "Wölfe"],
-       "image":"https://de.wikipedia.org/wiki/Datei:Canis_lupus_laying.jpg",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/0/07/Canis_lupus_laying.jpg",
        "taxonomy": {
            "order":"Raubtiere",
            "family":"Hunde"
@@ -391,7 +391,7 @@
    },
    {
        "species": ["Tapir", "Tapire"],
-       "image":"https://de.wikipedia.org/wiki/Datei:Tapir_in_Costa_Rica.jpg",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/d/de/Tapir_in_Costa_Rica.jpg",
        "taxonomy": {
            "order":"Unpaarhufer",
            "family":"Tapire"

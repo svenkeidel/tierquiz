@@ -53,6 +53,7 @@ const revealNth = (n) => (maskedSentences) => {
 
 const maskText = (animal) => (text) => {
   let masks = animal.species.concat(animal.species.map(s => s.toLowerCase()))
+  // TODO: replace all occurences of species by using /g
   return masks.reduce((t,s) => t.replace(s,"..."),text)
 };
 
