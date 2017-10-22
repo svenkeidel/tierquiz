@@ -53,8 +53,7 @@ const revealNth = (n) => (maskedSentences) => {
 
 const maskText = (animal) => (text) => {
   let masks = animal.species.concat(animal.species.map(s => s.toLowerCase()))
-  // TODO: replace all occurences of species by using /g
-  return masks.reduce((t,s) => t.replace(s,"..."),text)
+  return masks.reduceRight((t,s) => t.replace(new RegExp(s,'g'),"..."),text)
 };
 
 const printMaskedSentence = (animal,onClick) => (maskedSentence,i) => {
@@ -369,7 +368,7 @@ class GameSelector extends Component {
         <div>
           <h1>Wähle ein Tier</h1>
           <p><Button onClick={() => this.selectRandomAnimal()}>Zufällig</Button></p>
-          {animals.map((animal,i) => <Button key={i.toString()} onClick={() => this.setAnimal(animal)}>{i}</Button>)}
+          {animals.map((animal,i) => <Button key={i.toString()} onClick={() => this.setAnimal(animal)}>{i+1}</Button>)}
         </div>
       );
 
