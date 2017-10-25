@@ -7,6 +7,7 @@ import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 
 import './App.css';
 import animals from './animals.json';
+import { shuffle, uniformDist, expDist } from './Random.js';
 
 import noCheckCircle from './no_check_circle.svg';
 import yesCheckCircle from './yes_check_circle.svg';
@@ -31,7 +32,7 @@ const removeSentences = (percent,sentences) => {
   let totalSize = size(reduced)
   while(size(reduced) > totalSize * percent && numShown(reduced) > 1) {
     let red = reduced.filter(s => s.masked === "shown")
-    let r = Math.floor(Math.random() * red.length)
+    let r = Math.floor(uniformDist(0,red.length))
     reduced[red[r].id].masked = "hidden"
   }
   return reduced
@@ -40,7 +41,7 @@ const removeSentences = (percent,sentences) => {
 const revealRandom = (maskedSentences) => {
   let hidden = maskedSentences.filter(s => s.masked === "hidden")
   if(hidden.length > 0) {
-    let r = Math.floor(Math.random() * hidden.length)
+    let r = Math.floor(uniformDist(0,hidden.length))
     maskedSentences[hidden[r].id].masked = "shown"
   }
   return maskedSentences
@@ -66,6 +67,21 @@ const printMaskedSentence = (animal,onClick) => (maskedSentence,i) => {
 const printMaskedSentences = (animal,onClick,maskedSentences) => maskedSentences.map(printMaskedSentence(animal,onClick))
 
 const splitIntoSentences = (text) => text.split(/\.|\n/).map(s => s.trim()).filter(s => s.length !== 0)
+
+const addOrZero = (obj1,obj2,attr) => obj1.taxonomy[attr] === obj2.taxonomy[attr] ? 1 : 0
+  
+const similarTaxonomy = (a1,a2) =>
+  1 * addOrZero(a1,a2,'kingdom') +
+  2 * addOrZero(a1,a2,'phylum') +
+  3 * addOrZero(a1,a2,'class') +
+  4 * addOrZero(a1,a2,'superorder') +
+  5 * addOrZero(a1,a2,'order') +
+  6 * addOrZero(a1,a2,'suborder') +
+  7 * addOrZero(a1,a2,'infraorder') +
+  8 * addOrZero(a1,a2,'superfamily') +
+  9 * addOrZero(a1,a2,'family') +
+  10 * addOrZero(a1,a2,'genus') +
+  11 * addOrZero(a1,a2,'species')
   
 const animalAttributes = [
     {attribute: "Verbreitung",    text:  (animal) => animal.distribution },
@@ -77,18 +93,6 @@ const animalAttributes = [
     {attribute: "Merkmale",       text:  (animal) => animal.characteristic},
     {attribute: "Bild",           image: (animal) => animal.image}
 ];
-
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-  while (0 !== currentIndex) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-  return array;
-}
 
 class AnimalAttribute extends Component {
   constructor(props) {
@@ -231,24 +235,25 @@ class AnimalTrivia extends Component {
   constructor(props) {
     super(props);
     this.animal = props.animal
-    var animalList = [this.animal]
-    for(var i = 1; i <= 3; i++) {
-      let r = Math.floor(Math.random() * animals.length)
-      if(animalList.includes(animals[r])) {
-        i--;
-        continue;
-      }
-      animalList.push(animals[r])      
+    var candidates = animals.slice(0)
+    candidates = candidates.map((a) => Object.assign(a,{similar: similarTaxonomy(a,this.animal)}))
+    candidates.sort((a1,a2) => a2.similar - a1.similar)
+    candidates.shift()
+    var selection = [this.animal]
+    while (selection.length < 4) {
+      let r = Math.floor(expDist(0.01)(0,candidates.length))
+      selection.push(candidates[r])      
+      candidates.splice(r,1)
     }
-    animalList = shuffle(animalList)
+    selection = shuffle(selection)
     if(this.props.attr.hasOwnProperty('text'))
       this.state = {
-        animals: animalList.map(function(animal) { return {animal:animal, text: removeSentences(props.difficulty,splitIntoSentences(props.attr.text(animal)))}; }),
+        animals: selection.map(function(animal) { return {animal:animal, text: removeSentences(props.difficulty,splitIntoSentences(props.attr.text(animal)))}; }),
         revealed: false
       };
     else
       this.state = {
-        animals: animalList.map(function(animal) { return {animal:animal, image: props.attr.image(animal)}; }),
+        animals: selection.map(function(animal) { return {animal:animal, image: props.attr.image(animal)}; }),
         revealed: false
       };
   }

@@ -3,8 +3,14 @@
         "species": [ "Gibbon", "Gibbons" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/66/Weisshandgibbon_tierpark_berlin.jpg",
         "taxonomy": {
-            "order":"Primaten",
-            "family":"Gibbons"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Primates",
+          "suborder":"Haplorhini",
+          "infraorder":"Simiiformes",
+          "superfamily":"Hominoidea",
+          "family":"Hylobatidae"
         },
         "distribution":"Gibbons kommen in Südostasien vor, ihr Verbreitungsgebiet erstreckt sich von Nordostindien, Myanmar und Südchina über Indochina und die Malaiische Halbinsel bis zu den indonesischen Inseln Borneo und Java. In früheren Zeiten waren Gibbons weiter verbreitet, noch in der ersten Hälfte des 2. Jahrtausends fand man sie beispielsweise in einem Großteil Chinas.",
         "habitat":"Ihr Verbreitungsgebiet sind in erster Linie Regenwälder, manchmal kommen sie auch in Gebirgswäldern bis 1800 m Höhe vor.",
@@ -18,8 +24,14 @@
         "species": [ "Gepard", "Geparde" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/a/a9/Cheetah4.jpg",
         "taxonomy": {
-            "order":"Raubtiere",
-            "family":"Katzen"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Carnivora",
+          "suborder":"Feliformia",
+          "family":"Felidae",
+          "genus":"Acinonyx",
+          "species":"A. jubatus"
         },
         "distribution":"Der Gepard war einst über fast ganz Afrika mit Ausnahme der zentralafrikanischen Waldgebiete verbreitet; außerdem waren Vorderasien, die indische Halbinsel und Teile Zentralasiens besiedelt. Heute ist er fast nur noch in Afrika südlich der Sahara anzutreffen. In Asien gibt es winzige Restbestände, die am Rande der Ausrottung stehen.",
         "habitat":"Geparde sind reine Savannen- und Steppentiere. Sie bevorzugen Bereiche mit hohem, Deckung bietendem Gras und Hügeln als Ausschaupunkten. Zu viele Bäume und Sträucher machen eine Landschaft für Geparde ungeeignet, da sie dort ihre Schnelligkeit nicht ausnutzen können. In Halbwüsten kommen Geparde dagegen gut zurecht, wenn sie genügend Beutetiere finden.",
@@ -33,8 +45,14 @@
         "species": [ "Binturong", "Binturongs" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/a/a7/Binturong_in_Overloon.jpg",
         "taxonomy": {
-            "order":"Raubtiere",
-            "family":"Schleichkatzen"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Carnivora",
+          "family":"Viverridae",
+          "subfamily":"Paradoxurinae",
+          "genus":"Arctictis",
+          "species":"A. binturong"
         },
         "distribution":"Binturongs leben in Südostasien. Ihr Verbreitungsgebiet erstreckt sich von Indien über das südostasiatische Festland bis zu den Inseln Sumatra, Java, Borneo und Palawan.",
         "habitat":"Ihr Lebensraum sind dichte Wälder, vorwiegend tropische Regenwälder.",
@@ -48,8 +66,15 @@
         "species": [ "Rentier", "Rentiere" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/e/e0/Rentier_fws_1.jpg",
         "taxonomy": {
-            "order":"Paarhufer",
-            "family":"Hirsche"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Artiodactyla",
+          "family":"Cervidae",
+          "subfamily":"Capreolinae",
+          "tribe":"Rangiferini",
+          "genus":"Rangifer",
+          "species":"R. tarandus"
         },
         "distribution":"Rentiere zählen zu den am weitesten nördlich lebenden Großsäugern. Sie bewohnen große Teile des nördlichen Nordamerikas und Eurasiens. Selbst auf hocharktischen Inseln wie Spitzbergen, der Ellesmere-Insel und Grönland kommen Rentiere vor. Um dem arktischen Winter zu entgehen, unternehmen die Rentierherden, wo immer dies möglich ist, große Wanderungen, manche bis zu 5000 Kilometern – die längste regelmäßige Wanderung von Landsäugern überhaupt.\nAuf dem europäischen Festland gibt es nur noch in der norwegischen Hardangervidda eine kleine Population des Wildrentiers. Bei den großen Rentierherden Lapplands und Nordostrusslands handelt es sich ausschließlich um (geringfügig) domestizierte, „halbwilde“ Rentiere, die etwa unter der Obhut der Samen stehen (– die Zuchtwahl bei Rentieren fand und findet im Gegensatz zu anderen Nutztieren nur sehr eingeschränkt statt).\nIn Nordkanada reicht das Verbreitungsgebiet der Rentiere (Karibus genannt) weiter in den Süden, also in die boreale Zone. Die weiteste Verbreitung hatte das Rentier in der letzten Kaltzeit; damals drang es bis zu den Pyrenäen und an die heutige mexikanische Nordgrenze vor. Mit der Erwärmung am Ende der letzten Kaltzeit begann eine Habitatverlagerung nach Norden, wobei sich das Rentier noch lange in gemäßigteren Zonen aufhielt. Vermutlich waren Menschen für das Verschwinden der Tiere aus den gemäßigten Zonen mitverantwortlich; allerdings waren die Bestände ohnehin im Abnehmen begriffen.\nAuf den britischen Inseln starb das Rentier vor rund 10.000 Jahren aus. 1952 wilderte der Same Mikel Utsi 29 Tiere in der schottischen Berggruppe Cairngorms aus; heute leben hier etwa 130 Rentiere. Eine Herde von rund 80 Tieren lebt auf dem Gelände der Glenlivet-Brennerei.\nAls Neozoa wurde das Rentier auf den Kerguelen eingeführt. Dies war auch auf Südgeorgien der Fall, wo die Tierart im Jahr 2014 durch norwegische Scharfschützen, die von der südgeorgischen Verwaltung unterstützt wurden, jedoch erfolgreich wieder ausgerottet werden konnte.",
         "habitat":"Es lebt zirkumpolar im Sommer in den Tundren und im Winter in der Taiga Nordeurasiens und Nordamerikas sowie auf Grönland und anderen arktischen Inseln.",
@@ -63,8 +88,14 @@
         "species": [ "Rothund", "Rothunde" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/3/35/Asian_red_dog.jpg",
         "taxonomy": {
-            "order":"Raubtiere",
-            "family":"Hunde"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Carnivora",
+          "suborder":"Caniformia",
+          "family":"Canidae",
+          "genus":"Cuon",
+          "species":"C. alpinus"
         },
         "distribution":"Der Rothund ist über verschiedenste Klimazonen vom Altai und der Mandschurei südlich bis nach Indien und Indonesien verbreitet. Auf Borneo und Sri Lanka, wo Rothunde nicht rezent vorkommen, kam die Gattung Cuon noch im Pleistozän vor. Damals war sie auch in Europa und möglicherweise sogar in Nordamerika verbreitet.",
         "habitat":"In der Regel gehen Wölfe und Rothunde einander aus dem Weg, so dass es zwischen beiden Arten scharf getrennte Verbreitungsgebiete gibt. Im Gegensatz zu Wölfen meiden Rothunde offenes Gelände wie Steppen und Wüsten. Bergsteppen werden allerdings besiedelt. Sie leben vor allem in Wäldern, und zwar sowohl in den Nadelwäldern entlang des Amur als auch in den tropischen Regenwäldern Südostasiens und in den Trocken- und Monsunwäldern Indiens. In der ehemaligen Sowjetunion bewohnt der Rothund vor allem gebirgige Regionen.",
@@ -78,8 +109,13 @@
         "species": [ "Hirscheber", "Hirscheber" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/Hirscheber1a.jpg",
         "taxonomy": {
-            "order":"Paarhufer",
-            "family":"Echte Schweine"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Artiodactyla",
+          "family":"Suidae",
+          "subfamily":"Babyrousinae",
+          "genus":"Babyrousa",
         },
         "distribution":"Hirscheber sind endemisch auf der indonesischen Insel Sulawesi und vorgelagerten Inseln wie den Togian-Inseln. Eine Art lebt auch auf der Molukken-Insel Buru; hierher wurde sie aber offenbar durch Menschen gebracht.",
         "habitat":"Habitat ist der tropische Regenwald.",
@@ -93,8 +129,14 @@
         "species": [ "Gürtelmull", "Gürtelmulle" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/2/21/Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg",
         "taxonomy": {
-            "order":"Gepanzerte Nebengelenktiere",
-            "family":"Chlamyphoridae"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Cingulata",
+          "family":"Chlamyphoridae",
+          "subfamily":"Chlamyphorinae",
+          "genus":"Chlamyphorus",
+          "species":"C. truncatus"
         },
         "distribution":"Der Gürtelmull lebt ausschließlich im südlichen Südamerika in den Ebenen des zentralen Argentiniens. Hier kommt er vom Meeresspiegelniveau bis zu einer Höhe von 1500 m vor. Das Gesamtverbreitungsgebiet wird mit 350.000 km² angegeben, die Größe des tatsächlich bewohnten Gebietes oder die Dichte der Population sind aber weitgehend unbekannt.",
         "habitat":"Als bevorzugte Habitate gelten trockene Grasländer und sandige Ebenen mit buschartiger Vegetation, die sich durch trockene Klimate mit weniger als 400 mm Jahresniederschlag auszeichnen.",
@@ -108,8 +150,14 @@
         "species": [ "Fossa", "Fossas" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/a/a6/Cryptoprocta_Ferox.JPG",
         "taxonomy": {
-            "order":"Raubtiere",
-            "family":"Madagassische Raubtiere"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Carnivora",
+          "suborder":"Feliformia",
+          "family":"Eupleridae",
+          "genus":"Cryptoprocta",
+          "species":"C. ferox"
         },
         "distribution":"Ihr ursprüngliches Verbreitungsgebiet umfasste nahezu die gesamte Insel Madagaskar; entgegen früheren Vermutungen lebten sie nicht auf der vorgelagerten Insel Sainte Marie.",
         "habitat":" Sie bewohnen Regen- und Trockenwälder und kommen auch in Baum-Savannengebieten vor. Gänzlich unbewaldete Gebiete wie das gerodete zentrale Hochland meiden sie oder benutzen sie nur als Durchzugsgebiete. Sie sind vom Meeresspiegel bis in 2600 Meter Seehöhe anzutreffen. Die menschliche Besiedlung hat ihr Verbreitungsgebiet stark verkleinert und zersplittert.",
@@ -123,8 +171,13 @@
         "species": [ "Weißkopfseeadler", "Weißkopfseeadler" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/1/1e/2010-bald-eagle-kodiak.jpg",
         "taxonomy": {
-            "order":"Greifvögel",
-            "family":"Habichtartige"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Aves",
+          "order":"Accipitriformes",
+          "family":"Accipitridae",
+          "genus":"Haliaeetus",
+          "species":"H. leucocephalus"
         },
         "distribution":"Ursprünglich war der Weißkopfseeadler über das ganze Festland Nordamerikas verbreitet. Durch menschliche Verfolgung ist die Verbreitung in den USA heute im Wesentlichen auf die Ost- und die Westküste sowie auf Alaska reduziert, außerdem besiedelt die Art weite Teile Kanadas. Der Weißkopfseeadler lebt meistens an Flüssen, Seen oder an der Küste. Die größte Population gibt es in Alaska, die zweitgrößte in Florida, wobei in Florida 70 % am St. Johns River leben. Man trifft ihn manchmal in Zentral-Arizona und im Golf von Mexiko an.",
         "habitat":"Der Weißkopfseeadler lebt meistens an Flüssen, Seen oder an der Küste. ",
@@ -138,8 +191,13 @@
         "species": [ "Mähnenwolf", "Mähnenwölfe" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Maned_Wolf_6%2C_Beardsley_Zoo%2C_2009-11-06.jpg",
         "taxonomy": {
-            "order":"Raubtiere",
-            "family":"Hunde"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Carnivora",
+          "family":"Canidae",
+          "genus":"Chrysocyon",
+          "species":"C. brachyurus"
         },
         "distribution":"Verbreitet ist der Mähnenwolf ursprünglich in den Savannenlandschaften des zentralen Südamerika von Nordostbrasilien über Südbrasilien (Rio Grande do Sul), den Gran Chacco Paraguays bis Uruguay und Argentinien auf 30° südlicher Breite. Im Westen reicht das Gebiet über Bolivien bis zur peruanischen Grenze.",
         "habitat":"Als Lebensraum bevorzugt der Mähnenwolf hohe Grasgebiete, Buschländer (Cerrado) und parkähnliche Landschaften sowie feuchte, teilweise saisonal überschwemmte Grasgebiete. Tagsüber ruhen die Tiere meist in Galeriewäldern und an sumpfigen Flussläufen. Teilweise jagen sie offenbar auch im Kulturland",
@@ -153,8 +211,14 @@
         "species": [ "Schuhschnabel", "Schuhschnäbel", "Schuhschnabels" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Balaeniceps_rex_qtl2.jpg",
         "taxonomy": {
-            "order":"Ruderfüßer",
-            "family":"Schuhschnäbel"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Aves",
+          "order":"Pelecaniformes",
+          "family":"Balaenicipitidae",
+          "bonaparte","1853",
+          "genus":"Balaeniceps",
+          "species":"B. rex"
         },
         "distribution":"Am häufigsten ist der Schuhschnabel im Süden des Südsudans. Darüber hinaus findet man ihn vor allem in Uganda, Tansania und Sambia, sowie in isolierten Vorkommen in einigen an diese angrenzenden Staaten.",
         "habitat":"Sein Lebensraum sind Sümpfe und Seeufer, die dicht mit Papyrus oder Schilf bestanden sind. Da er sich selten aus dem Röhricht hervorwagt, wird er kaum gesehen. Innerhalb des Dickichts bewegt er sich vorwiegend auf schmalen Schneisen, die von Flusspferden oder Wasserböcken freigeräumt wurden.",
@@ -168,8 +232,13 @@
         "species": [ "Okapi", "Okapis" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/1/18/Okapi2.jpg",
         "taxonomy": {
-            "order":"Paarhufer",
-            "family":"Giraffenartige"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Artiodactyla",
+          "family":"Giraffidae",
+          "genus":"Okapia",
+          "species":"O. johnstoni"
         },
         "distribution":"Das Vorkommen der Okapis beschränkt sich auf äquatoriale Regenwälder im Norden, Zentrum und Osten der Demokratischen Republik Kongo. Hauptsächliches Verbreitungsgebiet ist der Ituri-Regenwald mit dem in ihm gelegenen Okapi-Wildtierreservat. 2006 wurden erstmals seit 1959 wieder Okapispuren im Nationalpark Virunga gesehen, 2008 gelangen erste Kameraaufnahmen von dort lebenden Okapis.",
         "habitat":"Okapis kommen generell nicht unter 500 m über dem Meeresspiegel vor und fehlen daher in den Sumpfwäldern im Westen des Landes. Im Osten wird das Verbreitungsgebiet durch montanen Wald, im Norden durch Savanne und im Süden durch offene Wälder begrenzt. Okapis sind am häufigsten zwischen 500 und 1000 m Höhe anzutreffen, kommen aber in Ausnahmefällen bis in 1450 m Höhe vor. Okapis kommen in Dichten von 0,1–1,2 (Schnitt 0,45) Exemplaren pro km² vor.",
@@ -183,8 +252,14 @@
         "species": [ "Narwal", "Narwale" ],
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Pod_Monodon_monoceros.jpg",
         "taxonomy": {
-            "order":"Wale",
-            "family":"Gründelwale"
+          "kingdom":"Animalia",
+          "phylum":"Chordata",
+          "class":"Mammalia",
+          "order":"Artiodactyla",
+          "infraorder":"Cetacea",
+          "family":"Monodontidae",
+          "genus":"Monodon",
+          "species":"M. monoceros"
         },
         "distribution":"Narwale sind im gesamten Arktischen Ozean verbreitet und halten sich stets in der Nähe des Packeises auf. Am häufigsten treten die Wale rund um Grönland, in der Baffin Bay, der Hudson Bay und entlang der Küste Sibiriens auf. Seltener sind sie an der Küste von Alaska, in der Tschuktschensee und der Ostsibirischen See zu finden. Man nimmt heute an, dass es sich bei den Tieren östlich und westlich von Grönland um zwei relativ stark voneinander separierte Populationen handelt.\nIm Sommer ziehen die Narwale weiter nach Norden als jedes andere Säugetier. Sie halten sich dann in den Fjorden Grönlands, vor allem im Inglefield-Fjord, in der kanadischen Arktis und rund um Spitzbergen auf. Selbst im Winter bleiben Narwale normalerweise nördlich des Polarkreises.\nAbgesehen von Spitzbergen kommen Narwale in Europa nur als Irrgäste vor. Wie aus Dokumentationen hervorgeht, wurden hier in den letzten 200 Jahren insgesamt nur etwa 20 Narwale gesichtet, vornehmlich vor der Küste Islands und Skandinaviens, wo sie gelegentlich auch strandeten. Sehr selten wurden verirrte Narwale sogar in der Nordsee gesehen. Die südlichste Sichtung stammt aus der Zuiderzee in den Niederlanden (1970).",
         "habitat":"",
@@ -198,8 +273,15 @@
        "species": ["Wapiti", "Wapitis"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/Wapiti.jpg",
        "taxonomy": {
-           "order":"Paarhufer",
-           "family":"Hirsche"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Artiodactyla",
+         "suborder":"Ruminantia",
+         "family":"Cervidae",
+         "subfamily":"Cervinae",
+         "genus":"Cervus",
+         "species":"C. canadensis"
        },
        "distribution":"Früher war der Wapiti in Nordamerika, speziell in der Gegend der Rocky Mountains weit verbreitet. Der Östliche Wapiti lebte in verschiedenen Bundesstaaten östlich des Mississippi Rivers. Nach deren Aussterben durch die Jagd brachte man westliche Wapitis in diese Gegend. \n Die meisten Wapitis leben im Westen, hauptsächlich in der Region der Rocky Mountains. Östlich des Mississippi gibt es nur etwa 3500 Wapitis, verteilt auf sieben Bundesstaaten. Im östlichen Kanada ist die Population ähnlich gering. \n In Asien leben Wapitis im südlichen Sibirien und Teilen Zentralasiens. Früher waren sie weit verbreitet, heute umfasst ihr Verbreitungsgebiet nur mehr die Bergketten westlich und östlich des Baikalsees, das Sajangebirge, das Altaigebirge, die Tianshan-Region sowie Teile der Mongolei und der Amurregion. Im Süden sind sie in Asien in Osttibet, im Himalaya und Zentralchina verbreitet. Ihr Habitat gleicht dem der nordamerikanischen Wapitis.",
        "habitat":"Wapitis leben als eine der größten nordamerikanischen Wildtierarten in offenen Wäldern oder in Waldnähe. Im Sommer steigen sie in Bergregionen in große Höhen auf, im Winter bevorzugen sie geschütztere und tiefer gelegene Gegenden.",
@@ -213,8 +295,14 @@
        "species": ["Eisbär", "Eisbären", "Polarbär", "Polarbären"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Polar_bear_after_unlucky_hunt_for_a_seal.jpg",
        "taxonomy": {
-           "order":"Raubtiere",
-           "family":"Bären"
+         "kingdom":"Andmali",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Carnivora",
+         "suborder":"Caniformia",
+         "family":"Ursidae",
+         "genus":"Ursus",
+         "species":"U. maritimus"
        },
        "distribution":"Eisbären sind ausschließlich in der Arktis verbreitet, und zwar zirkumpolar, also in der Polarregion rund um den Nordpol.",
        "habitat":"Die meisten hocharktischen Eisbären halten sich das ganze Jahr über an den Küsten oder auf dem Meereseis auf, um dort Robben zu jagen. Sie bevorzugen dabei Gebiete, in denen das Eis durch Wind und Meeresströmungen in Bewegung bleibt und immer wieder aufgerissen wird, wodurch eisfreie Stellen entstehen (Polynjas). Im Sommer halten sich Eisbären überwiegend an den südlichen Rändern des Treibeises auf. Mit Wintereinbruch wandern sie südwärts, den offenen Stellen folgend. An der Südküste der Hudson Bay (Kanada) sind die Tiere während des Sommers allerdings gezwungen, an Land zurückzukehren. Nach kilometerweiten Wanderungen ins Landesinnere müssen sie sich dann mit dem Wenigen begnügen, was ihnen Tundra und Taiga an Fressbarem bieten.",
@@ -228,8 +316,14 @@
        "species": ["Rotluchs", "Rotluchse", "Bobcat", "Luchs"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Bobcat2.jpg",
        "taxonomy": {
-           "order":"Raubtiere",
-           "family":"Katzen"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Carnivora",
+         "suborder":"Feliformia",
+         "family":"Felidae",
+         "genus":"Lynx",
+         "species":"L. rufus"
        },
        "distribution":"Das Verbreitungsgebiet des Rotluchses erstreckte sich ursprünglich vom Süden Kanadas über das gesamte Gebiet der Vereinigten Staaten bis nach Oaxaca, Mexiko. Bis heute konnte der Rotluchs dieses Verbreitungsgebiet weitgehend halten. Rotluchse kommen heute nicht mehr in einigen Teilen des mittleren Westens und des Ostens der Vereinigten Staaten vor, wo sie ihre Lebensräume auf Grund einer intensiven Landwirtschaft verloren haben. Zu den heute nicht mehr von Rotluchsen besiedelten Regionen zählen unter anderem der Süden von Minnesota, der Osten von South Dakota, Teile von Iowa und Missouri. Obwohl man davon ausgeht, dass Rotluchse im Westen von New York und in Pennsylvania nicht mehr vorkommen, gab es in jüngster Zeit mehrfach bestätigte Sichtungen von Rotluchsen an der Südgrenze und sogar im zentralen Nordteil von New York (Syracuse Metropolregion).\nDie nördliche Verbreitungsgrenze des Rotluchses ist vor allem von der Höhe bestimmt, die die Schneedecke im Winter erreichen kann. Anders als der Kanadische Luchs kommt der Rotluchs mit hohen Schneelagen nur schlecht zurecht. Ihm fehlen die großen behaarten Pranken, die für den Kanadischen Luchs charakteristisch sind. Auf einer Schneedecke laufende Rotluchse brechen daher tiefer ein als jene und sind damit in ihrer Fortbewegung bei Schnee behindert. Dort, wo sich die Verbreitungsgebiete von Kanadischem Luchs und Rotluchs überschneiden, ist der Rotluchs aber nicht unbedingt seinem größeren Vetter unterlegen. In Nova Scotia konnte der Rotluchs den Kanadischen Luchs partiell verdrängen, nachdem die dortigen Nadelwälder teilweise gefällt wurden, um in landwirtschaftliche Flächen umgewandelt zu werden.\nIn Nord- und Zentralmexiko lebt der Rotluchs in trockenen Buschgebieten sowie Kiefern- und Eichenwäldern. Die südliche Verbreitungsgrenze erreicht er im Übergangsbereich zu den Tropen.",
        "habitat":"Rotluchse sind sehr anpassungsfähig. Sie bevorzugen Waldgebiete, ohne dabei eine Präferenz für Nadel-, Laub- oder Mischwälder zu zeigen. Sie kommen jedoch außer in Waldgebieten in einem breiten Spektrum unterschiedlicher Lebensräume vor. Sie sind in den Everglades von Florida ebenso beheimatet wie in den hochgelegenen Felsregionen der Rocky Mountains, den Appalachen oder den Halbwüsten Kaliforniens. Als Revier nutzen sie auch landwirtschaftlich genutzte Flächen, wenn diese einen ausreichenden Waldbestand aufweisen oder ihnen angrenzende Sumpfgebiete oder Steinbrüche ausreichend Rückzugsmöglichkeiten bieten. Wenn dies gegeben ist, hängt die Bestandsdichte vor allem von der Anzahl potentieller Beutetiere ab. Rotluchse sind gelegentlich auch in Stadtrandgebieten zu beobachten, wenn diese an weitgehend naturbelassene Zonen angrenzen.\nDas Beutespektrum des Rotluchses überschneidet sich mit dem anderer mittelgroßer Prädatoren. Untersuchungen in Maine wiesen allerdings nur eine geringe Konkurrenz zwischen Rotluchs und Kojote oder Rotfuchs nach. Die interspezifischen Revierüberschneidungen ließen kein Muster erkennen. Anders verhält es sich mit dem kanadischen Luchs. Die Nahrungskonkurrenz mit dem Rotluchs verhindert eine weitere Ausbreitung des Kanadischen Luchses nach Süden.",
@@ -243,8 +337,15 @@
        "species": ["Orang-Utan", "Orang-Utans"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/d/d3/OrangutanP1.jpg",
        "taxonomy": {
-           "order":"Primaten",
-           "family":"Menschenaffen"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Primates",
+         "suborder":"Haplorhini",
+         "infraorder":"Simiiformes",
+         "family":"Hominidae",
+         "subfamily":"Ponginae",
+         "genus":"Pongo"
        },
        "distribution":"Noch vor einer Million Jahren kamen die Orang-Utans in ausgedehnten Gebieten Südostasiens vor. Ihr ursprüngliches Verbreitungsgebiet reichte vom südlichen China über Thailand, Vietnam bis nach Java, was durch Fossilienfunde in Südchina, Vietnam und der Insel Java belegt ist. In Teilen dieses Gebietes dürften sie zumindest bis vor wenigen tausend Jahren überlebt haben.\nOrang-Utans kommen heute nur mehr auf den Inseln Borneo und Sumatra vor. Auf Sumatra bewohnen sie die nordwestlichen Regionen und Teile der Westküste, auf Borneo sind sie vorwiegend in den südlichen und östlichen Regionen anzutreffen.",
        "habitat":"Lebensraum der Orang-Utans sind tropische Regenwälder vom Meeresniveau bis in 1500 Metern über dem Meeresspiegel. Sie sind oft in Sumpfgebieten oder in der Nähe von Flüssen zu finden, einen weiteren bedeutenden Lebensraum stellen Dipterocarpaceen-Wälder dar.",
@@ -258,8 +359,14 @@
        "species": ["Nasenaffe", "Nasenaffen"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Proboscis_Monkey_in_Borneo.jpg",
        "taxonomy": {
-           "order":"Geschwänzte Altweltaffen",
-           "family":"Meerkatzenverwandte"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Primates",
+         "suborder":"Haplorhini",
+         "infraorder":"Simiiformes",
+         "family":"Cercopithecidae",
+         "genus":"Nasalis"
        },
        "distribution":"Der Nasenaffe kommt ausschließlich auf der Insel Borneo vor, er bewohnt die Küstenregionen und die tiefergelegenen Gebiete. Dort lebt er hauptsächlich in Mangrovenwäldern.",
        "habitat":"Sie leben in tiefergelegenen Regen- und Mangrovenwäldern, niemals weit vom Wasser entfernt. Sie können sehr gut schwimmen und 20 m tauchend zurücklegen, oft springen sie direkt von den Bäumen ins Wasser. Nasenaffen gelten als die besten Schwimmer unter allen Primaten.",
@@ -273,8 +380,12 @@
        "species": ["Kiwi", "Kiwis", "Schnepfenstrauß", "Schnepfenstrauße"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/0/02/Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg",
        "taxonomy": {
-           "order":"Apterygiformes",
-           "family":"Kiwis"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Aves",
+         "order":"Apterygiformes",
+         "family":"Apterygidae",
+         "genus":"Apteryx"
        },
        "distribution":"Kiwis leben auf den drei großen Inseln Neuseelands: Nordinsel, Südinsel und Stewart Island. Es gibt sie außerdem auf zahlreichen kleinen Inseln vor den Küsten Neuseelands; auf den meisten von diesen sind sie aber mit Sicherheit, auf den übrigen mit hoher Wahrscheinlichkeit durch den Menschen eingeführt worden.",
        "habitat":"Das ursprüngliche Habitat der Kiwis waren die Wälder, die mit Ausnahme der Hochgebirge Neuseeland vor der Ankunft polynesischer Siedler nahezu lückenlos bedeckten. Heute sind sie auch in den künstlich entstandenen, strauchbestandenen offenen Geländen heimisch. Sie gehören außerdem zu den äußerst wenigen einheimischen Tieren, die sich in den von den Europäern angepflanzten Nadelbaummonokulturen ansiedeln konnten. Allerdings sind Kiwis trotz ihrer Anpassungsfähigkeit durch den Jagddruck durch eingeschleppte Raubtiere aus zahlreichen Regionen verschwunden und nur noch lückenhaft über Neuseeland verbreitet.\nIm Gebirge gibt es Kiwis bis in Höhen von 1200 Metern. Alle Kiwis brauchen Habitate mit hohem Grad an Feuchtigkeit und lockerem, humusreichem Boden.",
@@ -288,8 +399,13 @@
      "species": ["Axolotl"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/f/fc/Axolotl_Uni_Konstanz.JPG",
        "taxonomy": {
-           "order":"Schwanzlurche",
-           "family":"Querzahnmolche"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Amphibia",
+         "order":"Urodela",
+         "family":"Ambystomatidae",
+         "genus":"Ambystoma",
+         "species":"A. mexicanum"
        },
        "distribution":"Axolotl sind endemisch im Xochimilco-See und im benachbarten Chalco-See innerhalb eines vulkanischen Beckens bei Mexiko-Stadt beheimatet. Diese Seen sind Überbleibsel eines ausgedehnten Gewässersystems, das heute teilweise nur noch kanalartig ausgeprägt ist. Aus dem größten Teil des ursprünglichen Areals, etwa dem (ehemaligen) Texcoco-See und dem Zumpango-See, ist die Art inzwischen verschwunden.",
        "habitat":"Die Tiere sind nachtaktiv, bevorzugen kühles, sauerstoffreiches Süßwasser und halten sich am Gewässergrund auf. 2013 wurde in Xochimilco eine Population von 0,3 Axolotl pro Quadratkilometer festgestellt.",
@@ -303,8 +419,15 @@
        "species": ["Fingertier", "Fingertiere", "Aye-Aye"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/f/ff/Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg",
        "taxonomy": {
-           "order":"Primaten",
-           "family":"Daubentoniidae"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Primates",
+         "suborder":"Strepsirrhini",
+         "superfamily":"Lemuroidea",
+         "family":"Daubentoniidae",
+         "genus":"Daubentonia",
+         "species":"D. madagascariensis"
        },
        "distribution":"Fingertiere sind auf der Insel Madagaskar endemisch und besitzen auf dieser Insel eines der größten Verbreitungsgebiete aller Primaten. Sie bewohnen zum einen die Regenwälder entlang der Ostküste, aber leben entgegen früheren Vermutungen auch in den trockeneren Laubwäldern im Nordwesten und Westen. Im Siedlungsgebiet des subfossilen Riesenfingertiers (Daubentonia robusta) dem trockenen Südwestteil und im unbewaldeten zentralen Hochland fehlen sie dagegen. Im Rahmen von Maßnahmen zur Erhaltung der Art wurden sie in Gebieten angesiedelt, in denen sie ursprünglich nicht heimisch waren, etwa auf der Insel Nosy Mangabe.",
        "habitat":"Ihr Lebensraum sind Wälder, sie kommen mit verschiedenen Waldtypen zurecht. Neben Regen- und Laubwäldern sind sie auch in Sumpf- und Mangrovenwäldern und manchmal sogar in Plantagen heimisch.",
@@ -318,8 +441,14 @@
        "species": ["Elch", "Elche"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/4/47/Bigbullmoose.jpg",
        "taxonomy": {
-           "order":"Paarhufer",
-           "family":"Hirsche"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Artiodactyla",
+         "family":"Cervidae",
+         "subfamily":"Capreolinae",
+         "genus":"Alces",
+         "species":"A. alces"
        },
        "distribution":"Als Bewohner des nördlichen borealen Waldes und der Taigagebiete kommt der Elch in Europa, Asien und Nordamerika vor. Besiedelt werden in Asien unter anderem die Mongolei und die Mandschurei. Er fehlt auf Sachalin und auf den Kurilen, ansonsten stellt der Pazifik die Ostgrenze des asiatischen Verbreitungsgebietes dar.\nIn Nordamerika kommt der Elch vor allem in Kanada vor, im zentralen und westlichen Alaska, in großen Teilen von Neuengland und New York, in den oberen Rocky Mountains, Nordost-Minnesota, Michigan auf der Oberen Halbinsel und der Isle Royale im Lake Superior. Isolierte Elch-Populationen wurden auch weiter südlich, in den Bergen von Utah und Colorado gesichtet.\nGrößere europäische Elchpopulationen finden sich in Norwegen, Schweden, Finnland und den baltischen Staaten; weit verbreitet sind sie auch in Russland, kleine Ansiedlungen gibt es in Polen, Weißrussland und Tschechien. In historischer Zeit kam der Elch auch in Westeuropa mit Ausnahme des Südens, des Südostens und Westens vor. Um die Zeitenwende war der Elch in ganz Germanien, das damals ein sehr dünn besiedeltes Waldland war, verbreitet. Mit dem Verschwinden der Wälder und Ausweitung des Kulturraumes ging der Elchbestand zurück. Bis zum Zweiten Weltkrieg kam der Elch in Deutschland in Mecklenburg, Teilen Ost-Brandenburgs und Schlesiens und vor allem aber in Ostpreußen auf der Kurischen Nehrung und in den Niederungen am Ostufer des Kurischen Haffs vor. Der kleine Bestand in Mecklenburg und Neuvorpommern verschwand mit den Kriegswirren. Der Bestand im ehemaligen Ostpreußen konnte sich jedoch bis heute halten. In jüngster Zeit kehrt neben dem Wolf auch der Elch zurück und breitet sich in Deutschland unter anderem im Bayerischen Wald aus.\nDas Verbreitungsgebiet des Elches ist sehr dynamisch. Im europäischen Russland kam es beispielsweise in der ersten Hälfte des 19. Jahrhunderts zu einer drastischen Arealverminderung, bei der sich die südliche Verbreitungsgrenze um fast 1000 Kilometer nach Norden verschob. Die Ursachen dafür sind unklar, da es in diesem Zeitraum zu keinem starken Rückgang der Waldzone kam. Eine starke Bejagung ist aber möglicherweise einer der Einflussfaktoren, da ab Anfang des 18. Jahrhunderts Teile der russischen Armee mit Uniformen aus Elchleder ausgerüstet wurden. In der zweiten Hälfte des 19. Jahrhunderts, als die Verwendung von Elchleder für die russische Uniformenschneiderei nahezu vollständig eingestellt wurde, kam es zu einer weitgehenden Wiederbesiedelung des verlorengegangenen Areals. Dabei verschob sich die südliche Verbreitungsgrenze in wenigen Jahrzehnten wieder um 500 bis 600 Kilometer nach Süden. Im Verlauf des 20. Jahrhunderts besiedelte der Elch auch den Kaukasus wieder, wo er seit Beginn des 19. Jahrhunderts ausgestorben war. Dies ist aus zoogeographischem Gesichtspunkt interessant, weil Elche dabei die Steppen des Kaukasusvorlands überwanden, die vollständig kultiviert und dicht besiedelt sind. Offenbar sind Elche in der Lage, für ihre Lebensraumanforderungen ungeeignete Gebiete schnell zu durchqueren, um geeignete Lebensräume zu erreichen.\nDie Ausbreitungsdynamik des Elchs zeigt sich auch in Mitteleuropa. In den letzten Jahren wurden Einzeltiere über längere Zeiträume in Sachsen-Anhalt, Brandenburg, Hessen und Thüringen gesichtet, fallweise (zuletzt im August 2014 im Stadtgebiet von Dresden) auch in Sachsen. In Bayern wurde wegen der zunehmenden Einwanderung der Tiere aus Tschechien sogar ein „Elchplan“ entwickelt. Elch, wie auch Wolf, werden somit als wieder in Deutschland heimisch gewordene Wildtiere bezeichnet. Auch im österreichischen Thayatal, Böhmerwald sowie bis zum südlichen Waldviertel wie auch im Mühlviertel wurden aus Tschechien zugewanderte Elche beobachtet.\nIm Jahr 1904 wurden Elche in Neufundland erfolgreich eingeführt; sie sind dort inzwischen die beherrschenden Huftiere. Zehn Elche wurden 1910 in Fiordland in Neuseeland ausgesetzt, die jedoch wieder ausstarben. Seit 2015 findet ein Auswilderungsprojekt auch in Dänemark statt (Lille Vildmose).",
        "habitat":"Der Elch ist in seinen Lebensraumansprüchen anpassungsfähig, bevorzugt aber unebenes, schwergängiges Gelände. Flache und hindernislose Steppe, Tundra oder Prärie wird von ihnen selten genutzt. Er ist relativ ortstreu und hält sich in der Regel in einem Gebiet auf, das ihm vertraut ist. Beides ist auf das Fluchtverhalten der Elche zurückzuführen. Elche fliehen vor ihren Fressfeinden wie Wölfen oder Bären, da sie mit ihren langen Beinen Hindernisse im Trott überwinden können, die von ihren Verfolgern mit größerem Körpereinsatz übersprungen werden müssen. Dieses Verhalten setzt jedoch auch voraus, dass der Elch sich in einem Gebiet aufhält, das ihm vertraut ist. Elche nutzen ganzjährig ein Territorium von bis zu 1500 Hektar. Sie halten sich saisonal jedoch in einem deutlich kleineren Gebiet auf. Nach nordamerikanischen Untersuchungen betragen diese saisonalen Territorien zwischen 200 und 400 Hektar.\nElche sind in baumloser Arktis, alpinen Matten, Prärie und Sumpfwäldern zu finden. Regionen mit hohen Schneelagen werden von ihnen gemieden. In Regionen, in denen viel Schnee fällt, halten sie sich meist an Stellen mit einem Bestand an Nadelbäumen und immergrünen Sträuchern auf, die verhindern, dass sich am Boden hoher Schnee bilden kann. In Schweden verlassen Elche ihre Sommerreviere und suchen niedrigere Höhenlagen auf, sobald die Schneehöhe mehr als 42 Zentimeter beträgt.",
@@ -333,8 +462,14 @@
        "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfüchse", "Rotfuches", "Stadtfuchs", "Stadtfüchse"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg",
        "taxonomy": {
-           "order":"Raubtiere",
-           "family":"Hunde"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Carnivora",
+         "suborder":"Caniformia",
+         "family":"Canidae",
+         "genus":"Vulpes",
+         "species":"V. vulpes"
        },
        "distribution":"Von allen wildlebenden Raubtieren haben Rotfüchse das größte geographische Verbreitungsgebiet: Sie können sowohl nördlich des Polarkreises als auch in fast tropischen Gebieten leben. In Nordamerika kommen sie von den Aleuten bis Neufundland vor – mit Ausnahme von Arizona, Süd-Florida und einem Streifen von Alberta bis Mexiko. Rotfüchse besiedeln Eurasien von Irland bis zum Beringmeer. Mitte des 19. Jahrhunderts wurden Rotfüchse aus England zur traditionellen Fuchsjagd in Australien eingeführt. Die dort heimischen langsamen Beuteltiere waren an die Neubesiedler nicht angepasst und wurden leichte Beute. Heute ist ganz Australien bis auf das Northern Territory und die nördlichen Teile von Queensland von Füchsen besiedelt. 1893 wurden die ersten Kopfgelder ausgesetzt. Neuseeland ist bis heute fuchsfrei. In Tasmanien laufen aus Artenschutzgründen Maßnahmen zur Ausrottung der Füchse.",
        "habitat":"Der Nahrungsopportunist Rotfuchs stellt an seinen Lebensraum keine besonderen Anforderungen. Wälder, Grasland, Äcker und in jüngerer Zeit zunehmend auch Siedlungsgebiete sind unterschiedlich geeignete Lebensräume für die Rotfüchse.\nDie ersten Stadtfüchse wurden in den 1930er-Jahren in Londoner Vororten bekannt. Als Ursache wird ein damals neuer Baustil vermutet, bei dem sich ländlich geprägte Gebiete zu locker bebautem Siedlungsraum mit hohem Grünflächenanteil verwandelten. In vielen nördlichen englischen Städten wurden Stadtfüchse bis in die 1980er-Jahre nicht beobachtet. Ab den 1980er-Jahren traten vermehrt Berichte von Fuchsbeobachtungen in Großstädten auf dem europäischen Festland auf (z. B. Berlin, Oslo, Paris, Zürich), die zunächst nur als Einzelfälle gewertet wurden. Seit etwa 1990 sind Stadtfuchspopulationen auch aus Australien, Japan und Nordamerika bekannt.",
@@ -348,8 +483,14 @@
        "species": ["Wolf", "Wölfe"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/0/07/Canis_lupus_laying.jpg",
        "taxonomy": {
-           "order":"Raubtiere",
-           "family":"Hunde"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Carnivora",
+         "suborder":"Caniformia",
+         "family":"Canidae",
+         "genus":"Canis",
+         "species":"C. lupus"
        },
        "distribution":"Der Wolf war ursprünglich (vor der Ausbreitung des Homo sapiens und der Entwicklung von Land- und Weidewirtschaft) das am weitesten verbreitete Landsäugetier der Erde. Er war in ganz Europa und Asien sowie in Nordamerika beheimatet. In weiten Teilen dieses einst riesigen Verbreitungsgebietes, besonders im westlichen Europa und in Nordamerika, wurde die Art durch menschliche Verfolgung ausgerottet. In Osteuropa, auf dem Balkan, in Kanada, Sibirien, der Mongolei und zu einem geringeren Grade dem Iran gibt es noch größere zusammenhängende Populationen. Ansonsten ist der Wolf heute nur in isolierten Beständen (manche umfassen weniger als 100 Tiere) anzutreffen.",
        "habitat":"Wölfe bewohnen eine Vielzahl von Habitaten. Ihre hohe Anpassungsfähigkeit lässt sie in der arktischen Tundra ebenso leben wie in den Wüsten Nordamerikas und Zentralasiens. Die meisten Wölfe bewohnen Grasland und Wälder; besiedelt werden auch Feuchtgebiete, Buschland, Kulturland, Felsregionen und Gebirge bis in 2400 m Höhe. Wölfe wurden vor allem als Waldtiere bekannt, weil der Mensch sie in großen Teilen des Verbreitungsgebietes frühzeitig aus offeneren Landschaften vertrieben hat.",
@@ -361,10 +502,15 @@
    },
    {
        "species": ["Koboldmaki", "Koboldmakis"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Tarsius_sp._1.jpg",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/5/59/Tarsier-GG.jpg",
        "taxonomy": {
-           "order":"Primaten",
-           "family":"Koboldmakis"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Primates",
+         "suborder":"Haplorrhini",
+         "infraorder":"Tarsiiformes",
+         "family":"Tarsiidae"
        },
        "distribution":"Koboldmakis bewohnen die südostasiatische Inselwelt. Ihr Verbreitungsgebiet umfasst das südliche Sumatra, Borneo, die südlichen Philippinen und die Insel Sulawesi – jeweils samt vorgelagerter Inseln. Anhand der Verbreitung lassen sich drei Artengruppen erkennen, die sich auch im Körperbau und im Verhalten teilweise voneinander unterscheiden: die Sunda-Gruppe (auf Sumatra und Borneo), die Philippinen-Gruppe (beide mit jeweils nur einer Art) und die Sulawesi-Gruppe (mit den restlichen Arten) – siehe auch Innere Systematik.\nKoboldmakis sind neben den Makaken und den Menschen die einzigen Primaten, die die Wallace-Linie überschritten haben. Alle anderen Primaten kommen nur westlich dieser biogeographischen Trennlinie zwischen Borneo und Sulawesi vor. Übereinstimmungen im Körperbau und der Lebensweise lassen annehmen, dass die Besiedelung Sulawesis durch die Koboldmakis von Norden über die Philippinen erfolgte, nicht von Westen über das viel näher liegende Borneo. Dafür spricht auch die Existenz von endemischen Arten auf den zwischen den Philippinen und Sulawesi gelegenen Inseln Sangihe und Siau.",
        "habitat":"Diese Tiere finden sich in einer Vielzahl von Lebensräumen. Vorrangig leben sie in Wäldern wie Regen-, Berg-, Galerie- und Mangrovenwäldern, aber auch beispielsweise in Sumpfgebieten und Bambusdickichten. Generell bevorzugen sie dicht mit Unterholz bestandene Gebiete und benötigen Pflanzendickichte als Schlafplätze. Sie kommen vom Meeresspiegel bis in 1500 Meter Seehöhe vor, einzig der Zwergkoboldmaki kommt vermutlich nur zwischen 1800 und 2200 Metern Seehöhe vor.",
@@ -378,8 +524,11 @@
        "species": ["Seekuh", "Seekühe"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/b/b1/Manatee_photo.jpg",
        "taxonomy": {
-           "order":"Seekühe",
-           "family":"Gabelschwanzseekühe"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "superorder":"Afrotheria",
+         "order":"Sirenia",
        },
        "distribution":"Die Verbreitungsgebiete der heute lebenden Seekühe überschneiden sich nicht und liegen teilweise sehr weit voneinander entfernt. So findet man die einzige heute noch lebende Art der Gabelschwanzseekühe (Dugongidae), den Dugong (Dugong dugon), ausschließlich an Meeresküsten des Indischen Ozeans, einschließlich des Roten Meeres, und des süd-westlichen Pazifischen Ozeans vor. Die Arten der Rundschwanzseekühe (Trichechidae) leben zum einen im Golf von Mexiko vor den Küsten Floridas und den südöstlichen USA, den Küsten Mittelamerikas und der Karibischen Inseln sowie den nördlichen Küsten Südamerikas (Karibik-Manati, Trichechus manatus), daneben im Gebiet des Amazonas in Südamerika (Amazonas-Manati, Trichechus inunguis) und schließlich an den Küsten Westafrikas zwischen dem Senegal und dem nördlichen Angola und in den dortigen Flusssystemen wie dem Niger und anderen westafrikanischen Flüssen (Afrikanischer Manati, Trichechus senegalensis).",
        "habitat":"Während alle heute noch lebenden Arten in tropischen Gewässern leben, lag der Lebensraum der ausgestorbenen Stellerschen Seekuh in den polaren Gewässern des Beringmeeres.",
@@ -393,8 +542,12 @@
        "species": ["Tapir", "Tapire"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/d/de/Tapir_in_Costa_Rica.jpg",
        "taxonomy": {
-           "order":"Unpaarhufer",
-           "family":"Tapire"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Perissodactyla",
+         "family":"Tapiridae",
+         "genus":"Tapirus"
        },
        "distribution":"Tapire haben heute ein zweigeteiltes Verbreitungsgebiet: Vier Arten leben in Mittel- und Südamerika, wo sie vom südlichen Mexiko bis in das südliche Brasilien und das nördliche Argentinien verbreitet sind. Die fünfte Art, der Schabrackentapir, lebt in Südostasien, von Myanmar bis zur Malaiischen Halbinsel und auf Sumatra. Diese Zweiteilung des Verbreitungsgebietes ist ein Relikt der ursprünglich wesentlich weiteren Verbreitung. Im Miozän und Pliozän kamen Tapire im gesamten eurasischen Raum mit Ausnahme des Indischen Subkontinents und zusätzlich noch in weiten Teilen Nordamerikas vor, Südamerika wurde erst im mittleren Pliozän mit der Schließung des Isthmus von Panama und im Zuge des daraufhin einsetzenden Großen Amerikanischen Faunenaustausches erreicht. Infolge von Klimaänderungen zu kühleren Temperaturen und stärkerer Saisonalisierung des Jahres verbunden mit der Ausbreitung offener Landschaften im Mio- und Pliozän bis hin zum Pleistozän verschwanden die Tapire wieder aus Europa, Nordasien und Nordamerika.",
        "habitat":"Der Lebensraum der Tapire sind Wälder, in erster Linie tropische Regenwälder, aber auch Bergnebelwälder. Sie sind auf die Nähe von Wasser angewiesen und kommen von Meeresniveau bis in Höhen von 4500 m vor. Da Tapire eine konservative Gattung mit nur geringen körperlichen Änderungen über die Zeit darstellen, wird dies auch für die fossilen Arten angenommen.",
@@ -408,8 +561,11 @@
        "species": ["Igel", "Stacheligel", "Rattenigel", "Stacheligel", "Langohrigel", "Wüstenigel"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/3/30/Je%C5%BE_Hedgehog_1.JPG",
        "taxonomy": {
-           "order":"Insektenfresser",
-           "family":"Igel"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Eulipotyphla",
+         "family":"Erinaceidae"
        },
        "distribution":"Igel sind auf die Alte Welt beschränkt, sie kommen in Europa, Afrika und Teilen Asiens vor. In Amerika fehlen sie ebenso wie in Australien. Während sich das Verbreitungsgebiet der Stacheligel von den Britischen Inseln und der Iberischen Halbinsel bis nach Südafrika beziehungsweise Korea und Indien erstreckt, sind die Rattenigel auf Südostasien beschränkt.",
        "habitat":"Igel bewohnen eine Vielzahl von Lebensräumen: Die Stacheligel bevorzugen eher trockene Habitate, sie finden sich unter anderem in lichten Wäldern, Grasländern und auch Kulturlandschaften. Einige Gattungen wie die Wüstenigel und Langohrigel sind sogar ausgesprochene Steppen- und Wüstenbewohner. Die Rattenigel hingegen bevorzugen feuchte Habitate und finden sich vorrangig in Regenwäldern.",
@@ -423,8 +579,14 @@
        "species": ["Koala", "Koalas"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
        "taxonomy": {
-           "order":"Diprotodontia",
-           "family":"Phascolarctidae"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "infraclass":"Marsupialia",
+         "order":"Diprotodontia",
+         "family":"Phascolarctidae",
+         "genus":"Phascolarctos",
+         "species":"P. cinereus"
        },
        "distribution":"Koalas waren ursprünglich in Australien weit verbreitet, wurden aber wegen ihres Fells gejagt und dadurch in vielen Gebieten ausgerottet. Sie konnten teilweise wieder angesiedelt werden. Ein Reservat ist beispielsweise Kangaroo Island vor Adelaide, wo der Koala ursprünglich nicht beheimatet war. Größere Populationen sind entlang der australischen Ostküste in Queensland, New South Wales und Victoria und in Gegenden im Hinterland, in denen es genügend Futterbäume gibt, zu finden. Die gesamte Population wird auf 45.000–80.000 Tiere geschätzt. Im Bundesstaat Tasmanien gibt es keine Koalas.",
        "habitat":"Koalapopulationen können sich nur in Lebensräumen verbreiten, die bestimmte Bedingungen erfüllen. Ein geeigneter Lebensraum enthält von Koalas bevorzugte Bäume (hauptsächlich Eukalyptusarten, aber auch einige andere) in bestimmten Vergesellschaftungen auf geeigneten Böden sowie ausreichenden Niederschlag. Ein weiteres Kriterium ist, dass andere Koalas in der Nähe leben müssen. Solche Lebensräume sind lichte Eukalyptuswälder, in denen andere Baumarten nur vereinzelt vertreten sind.\nHäufig leben Koalas jedoch aufgrund von Waldrodungen in einer Steppenlandschaft mit eher verstreuten Bäumen, die schlimmstenfalls in der Nähe einer Straße liegen. In diesem Fall sind die Reviere größer, da nur so gewährleistet ist, dass sie genügend Futterbäume enthalten. Man findet sie auch auf Grünflächen mit Eukalyptusbäumen in Städten, die für sie allerdings keinen geeigneten Lebensraum darstellen. Solche Tiere werden in der Regel Opfer von Autos, Hunden, Schwimmbecken und anderen von Menschen geschaffenen Gefahren.\nDie Größe von Koalapopulationen ist direkt abhängig von der Größe des Lebensraumes und von der Anzahl der darin wachsenden ernährungsrelevanten Eukalyptusarten und ihrer Bewuchsdichte. Wird ein Lebensraum verkleinert oder zerschnitten, verringert sich die ökologische Tragfähigkeit des Lebensraumes proportional zu seiner Fläche. Durch Rodungen oder Waldbrände unterschreiten heute viele ehemalige Verbreitungsgebiete der Koalas die für eine stabile Population notwendige Minimalgröße.",
@@ -438,8 +600,11 @@
        "species": ["Faultier", "Faultiere", "Zweifinger-Faultier", "Zweifinger-Faultiere", "Dreifinger-Faultier", "Dreifinger-Faultiere"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/2_toed_sloth.jpg",
        "taxonomy": {
-           "order":"Zahnarme",
-           "family":"Bradypodidae"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Pilosa",
+         "suborder":"Folivora"
        },
        "distribution":"Die Faultiere sind hauptsächlich im zentralen und nördlichen Südamerika und in Teilen Mittelamerikas und auf einigen Inseln der Karibik verbreitet. Sie bewohnen tropische Regenwälder des Flachlands und Bergwälder, selten nutzen sie offenere Landschaften. Höheren Lagen über 2400 m werden nur gelegentlich aufgesucht. Beide heutigen Gattungen tolerieren keine kühleren Temperaturen. Aufgrund des fehlenden Unterfells sind die Zweifinger-Faultiere stärker für Kälte empfindlich und besitzen eine höhere Thermoneutralität (24 °C) als die Dreifinger-Faultiere (18 °C). Allerdings ist das Fell der Zweifinger-Faultiere in höheren Lagen deutlich dichter.\nDer Ursprung der Faultiere ist höchstwahrscheinlich in Südamerika zu suchen. Mittel- und Nordamerika wurden in mehreren Ausbreitungswellen erreicht. So sind bereits im beginnenden Oligozän vor rund 34 Millionen Jahren Faultiere erstmals auf den Karibischen Inseln nachgewiesen, im Oberen Miozän vor etwa 8 Millionen Jahren besiedelten sie Nordamerika. Die Einwanderung in beide Regionen erfolgte wohl über kleine Inseln. Mit der Schließung des Isthmus von Panama und der Entstehung einer Landbrücke zwischen Süd- und Nordamerika im Pliozän vor rund 4 Millionen Jahren und dem damit einsetzenden Großen Amerikanischen Faunenaustausch kam es zu einer weiteren Besiedlung Mittel- und Nordamerikas durch Faultiere. Im Pleistozän erreichten sie ihre größte Ausdehnung über beide Kontinente. So kam Mylodon fast bis an die Südspitze Südamerikas vor, während Megalonyx im Hohen Norden Nordamerikas in Alaska nachgewiesen ist. Die Faultiere nutzten im Laufe ihrer Stammesgeschichte eine Vielzahl an Lebensräumen. So waren sie wie heute in dichten Wäldern, aber auch in Savannen und Steppen bis hin zu Wüsten anzutreffen, ebenso wie in hohen Gebirgslagen und an der Meeresküste.",
        "habitat":"Sie bewohnen zumeist tropische Regenwälder in Süd- und Mittelamerika, wo sie sich bevorzugt in den Baumkronen aufhalten und sich von blatthaltiger Pflanzenkost ernähren",
@@ -453,8 +618,13 @@
        "species": ["Wickelbär", "Wickelbären"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/7/73/Yawning_kinkajou.jpg",
        "taxonomy": {
-           "order":"Raubtiere",
-           "family":"Kleinbären"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Carnivora",
+         "family":"Procyonidae",
+         "genus":"Potos",
+         "species":"P. flavus"
        },
        "distribution":"Wickelbären sind Bewohner tropischer Regenwälder zwischen dem äußersten Süden Mexikos und dem Süden Brasiliens in maximal 2500 Metern Höhe über dem Meeresspiegel.",
        "habitat":"Sie halten sich in den Wipfelregionen der Bäume auf und steigen freiwillig nie auf den Boden herab. Da sie außerdem nachtaktiv sind, sind sie für Forscher nur schwer aufzufinden.",
@@ -468,8 +638,13 @@
        "species": ["Präriehund", "Präriehunde"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/d/dd/Praeriehunde_3.jpg",
        "taxonomy": {
-           "order":"Nagetiere",
-           "family":"Hörnchen"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Rodentia",
+         "family":"Sciuridae",
+         "tribe":"Marmotini",
+         "genus":"Cynomys"
        },
        "distribution":"Präriehunde leben in der Prärie Nordamerikas.",
        "habitat":"Das Habitat muss kurzes oder mittellanges Gras sowie trockenen Boden bieten.",
@@ -483,8 +658,14 @@
        "species": ["Beutelteufel", "Tasmanischer Teufel", "Tasmanischer Beutelteufel"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Tasdevil_large.jpg",
        "taxonomy": {
-           "order":"Raubbeutlerartige",
-           "family":"Raubbeutler"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "infraclass":"Marsupialia",
+         "order":"Dasyuromorphia",
+         "family":"Dasyuridae",
+         "genus":"Sarcophilus",
+         "species":"S. harrisii"
        },
        "distribution":"Beutelteufel leben heute nur noch auf Tasmanien.",
        "habitat":"Beutelteufel sind auf fast ganz Tasmanien zu finden und können als verhältnismäßig häufig angesehen werden. Sie nutzen nahezu alle Lebensräume der Insel und kommen auch in den Außenbezirken von Städten vor. Ihre bevorzugten Aufenthaltsräume sind jedoch trockene Wälder und die Waldgebiete entlang der Küste. Sie jagen bevorzugt während der Nacht und der Dämmerung und verbringen den Tag entweder in dichtem Gebüsch oder einem unterirdischen Bau. Beutelteufel können schwimmen. Junge Beutelteufel können auch auf Bäume klettern, mit zunehmendem Lebensalter fällt das den Tieren immer schwerer.",
@@ -498,8 +679,13 @@
        "species": ["Wombat", "Wombats"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg",
        "taxonomy": {
-           "order":"Diprotodontia",
-           "family":"Wombats"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "infraclass":"Marsupialia",
+         "order":"Diprotodontia",
+         "suborder":"Vombatiformes",
+         "family":"Vombatidae"
        },
        "distribution":"Wombats leben im südlichen und östlichen Australien, in den Bundesstaaten South Australia, Victoria, New South Wales, Queensland und Tasmanien.",
        "habitat":"Wombats zählen zu den größten grabend lebenden Säugetieren überhaupt. Mit ihren scharfen Krallen errichten sie Wohnhöhlen in der Erde, welche sich auch zu komplexen Tunnelsystemen ausweiten können. Diese Höhlen können bis zu 20 Meter lang sein und 3,5 Meter tief liegen. Wenn sich die Aktionsräume überlappen, können diese zu unterschiedlichen Zeiten von verschiedenen Wombats bewohnt werden. Sie sind überwiegend nachtaktiv, tagsüber ruhen sie in ihrem Bau, in der Dämmerung und nachts gehen sie auf Nahrungssuche.",
@@ -513,8 +699,12 @@
        "species": ["Ameisenigel", "Schnabeligel", "Kurzschabeligel", "Langschnabeligel"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/Wild_shortbeak_echidna.jpg",
        "taxonomy": {
-           "order":"Kloakentiere",
-           "family":"Ameisenigel"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Monotremata",
+         "suborder":"Tachyglossa",
+         "family":"Tachyglossidae"
        },
        "distribution":"Ameisenigel kommen in Australien, auf Tasmanien und auf Neuguinea vor. Der Kurzschnabeligel ist dabei über weite Teile Australiens einschließlich seiner vorgelagerten Inseln und Neuguineas verbreitet. Die Langschnabeligel hingegen sind auf Neuguinea endemisch.",
        "habitat":"Ameisenigel stellen keine besonderen Ansprüche an ihren Lebensraum. Sie können überall zu finden sein, wo es genügend Nahrung für sie gibt. So leben sie sowohl in den Wüstenregionen im Inneren Australiens als auch in Waldgebieten und Parklandschaften. In den Gebirgsregionen Neuguineas sind sie bis in 4000 Meter Höhe ebenso anzutreffen wie auf Seehöhe. Ameisenigel benötigen nicht unbedingt Bäume in ihrem Lebensraum; als Ruheplätze können ihnen neben hohlen Baumstämmen auch Felsspalten oder kleine Erdhöhlen dienen.",
@@ -528,8 +718,13 @@
        "species": ["Gürteltier", "Gürteltiere"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/4/49/Armadillo2.jpg",
        "taxonomy": {
-           "order":"Gepanzerte Nebengelenktiere",
-           "family":"Dasypodidae"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Cingulata",
+         "family":"Dasypodidae",
+         "subfamily":"Dasypodinae",
+         "genus":"Dasypus"
        },
        "distribution":"Gürteltiere leben ausschließlich auf dem amerikanischen Doppelkontinent. Das Vorkommen der meisten Arten ist auf Südamerika beschränkt, wo sie aber über den größten Teil der Landfläche verbreitet sind. Hier ist auch der Ursprung der Gürteltiere anzusiedeln, der bis in das ausgehende Paläozän vor rund 58 Millionen Jahre zurückreicht. In Mittelamerika finden sich lediglich zwei Arten, darunter die bekannteste Gürteltierart, das Neunbinden-Gürteltier (Dasypus novemcinctus), das große Teile von Süd- und Mittelamerika bis einschließlich der südöstlichen USA bewohnt. Die Vorfahren der nord- und mittelamerikanischen Arten sind vermutlich erst nach dem Entstehen der Landbrücke zwischen Nord- und Südamerika am Isthmus von Panama und dem damit verbundenen Großen Amerikanischen Faunenaustausch im Pliozän vor rund 3 Millionen Jahren aus Südamerika eingewandert.",
        "habitat":"Zahlreiche Gürteltierarten bevorzugen trockene und offene Lebensräume wie Halbwüsten, Savannen und Steppen mit dorniger Gebüschvegetation oder Trockenwäldern und benötigen zudem einen lockeren Untergrund zum Anlegen ihrer Baue. Dadurch sind viele Vertreter im Gran Chaco, aber auch in den Pampas-Gebieten des zentralen Südamerikas vom südlichen Brasilien über Bolivien und Paraguay bis ins nördliche Argentinien anzutreffen; allein in Paraguay sind 12 der 21 heute noch lebenden Arten nachgewiesen. Einige Arten leben aber auch im tropischen Regenwald, in den Yungas-Wäldern der Hochgebirgsflanken oder in Feuchtgebieten wie dem Pantanal. Die direkten Hochlagen der Anden haben aber nur einzelne Gürteltierarten erschlossen, etwa das Kleine Borstengürteltier („Andenborstengürteltier“; Chaetophractus vellerosus).",
@@ -543,8 +738,12 @@
        "species": ["Kapuzineraffe", "Kapuzineraffen"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/4/40/Capuchin_Costa_Rica.jpg",
        "taxonomy": {
-           "order":"Primaten",
-           "family":"Kapuzinerartige"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Primates",
+         "family":"Cebidae",
+         "subfamily":"Cebinae"
        },
        "distribution":"Kapuzineraffen leben auf dem amerikanischen Kontinent, ihr Verbreitungsgebiet reicht von Mittelamerika (Honduras) über das Amazonasbecken bis in das südöstliche Brasilien und das nördliche Argentinien.",
        "habitat":"Ihr Lebensraum sind Wälder, wobei sie flexibler als andere Neuweltaffen sind und mit vielen Waldtypen zurechtkommen. So sind sie in Regenwäldern ebenso wie in trockenen Laubwäldern, in Mangroven- und Gebirgswäldern zu finden.",
@@ -558,8 +757,14 @@
        "species": ["Wisent", "Wisente"],
        "image":"https://upload.wikimedia.org/wikipedia/commons/2/26/Bison_bonasus_%28Linnaeus_1758%29.jpg",
        "taxonomy": {
-           "order":"Paarhufer",
-           "family":"Hornträger"
+         "kingdom":"Animalia",
+         "phylum":"Chordata",
+         "class":"Mammalia",
+         "order":"Artiodactyla",
+         "family":"Bovidae",
+         "subfamily":"Bovinae",
+         "genus":"Bison",
+         "species":"B. bonasus"
        },
        "distribution":"Die ursprüngliche Verbreitung des Wisents umfasste einen großen Teil des europäischen Kontinents. In vor- und frühgeschichtlicher Zeit reichte sein Verbreitungsareal vom Norden Spaniens über Mitteleuropa und den Süden der skandinavischen Halbinsel bis ins Baltikum; von der Rigaer Bucht verlief die Verbreitungsgrenze südostwärts bis ans Schwarze Meer und zum Kaukasus. Die Verbreitung reichte im Kaukasus vom Meeresniveau bis in eine Höhe von 2100 Metern. Im Süden reichte das Vorkommen wohl noch im Holozän (der Nacheiszeit/Neuzeit) bis in den nördlichen Iran, in Europa bis nach Griechenland und in die Türkei hinein. Im Norden erreichte der Wisent Finnland und das Gebiet von Nowgorod. Im frühen Mittelalter war er offenbar noch in den Waldsteppen östlich des Ural, bis ins Altaigebirge und zum Baikalsee verbreitet.\nWiederansiedlungen von Wisenten erfolgten 1952 im polnischen Teil und 1953 im weißrussischen Teil von Białowieża. 2004 lebten in Polen, Weißrussland, der Ukraine, Russland, Litauen und der Slowakei 29 freie und zwei halbfreie Populationen. Seit den 1980er Jahren lebt auch im russischen Altaigebirge wieder eine kleine Population des Flachlandwisents, die aber zunehmend an Inzucht leidet.",
        "habitat":"Der Lebensraum der Wisente sind ausgedehnte Laub- und Mischwälder mit einem ausgeprägten Mosaik unterschiedlich dichter Vegetationsstrukturen. Reine Nadelwälder werden nur selten aufgesucht, Mischwäldern wird aber der Vorzug vor reinen Laubwäldern gegeben. Eine Vorliebe zeigen Wisente für Erlenbruchwälder. Im Wald von Białowieża, der nicht nur die ältesten freilebenden Wisentherden beherbergt, sondern auch das ursprünglichste und vom Menschen am wenigsten geprägte Waldgebiet in Mitteleuropa ist, machen tote Bäume etwa 20 Prozent der Gesamtholzmasse aus. Dadurch ist der Wald deutlich lichter als mitteleuropäische Wirtschaftswälder. Entsprechend kann sich eine dichtere Krautschicht entwickeln. Die jahreszeitlich unterschiedliche Entwicklung der Krautschicht in Białowieża prägt das Nutzungsverhalten der Tiere: So halten sich Wisente im Frühjahr überwiegend in Laubwäldern auf, in denen sich die Krautschicht am frühesten entwickelt. Ab Ende Mai nutzen sie bevorzugt frische Mischwälder, in denen die Krautschicht sich später entwickelt und im Juni und Juli in voller Blüte steht. Die Reviergröße einer Gruppe von Wisenten beträgt etwa 4600 bis 5600 Hektar. Die Reviere einzelner Gruppen können sich jedoch zu einem großen Teil überlappen. Der Wisent ist sehr tolerant gegenüber borealem Klima, und man geht davon aus, dass die Nordgrenze der Verbreitung während der Neuzeit vor allem durch anthropogene Einflüsse bestimmt war. Eine Herde, die seit den 1990er Jahren in der Oblast Wologda auf etwa 60°N lebt, kommt etwa gänzlich ohne Winterfütterung aus.",
