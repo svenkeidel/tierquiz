@@ -8,6 +8,7 @@
           "class":"Mammalia",
           "order":"Primates",
           "suborder":"Haplorhini",
+          "without_rank":"Catarrhini",
           "infraorder":"Simiiformes",
           "superfamily":"Hominoidea",
           "family":"Hylobatidae"
@@ -29,6 +30,7 @@
           "class":"Mammalia",
           "order":"Carnivora",
           "suborder":"Feliformia",
+          "superfamily":"Feloidea",
           "family":"Felidae",
           "genus":"Acinonyx",
           "species":"A. jubatus"
@@ -49,6 +51,7 @@
           "phylum":"Chordata",
           "class":"Mammalia",
           "order":"Carnivora",
+          "superfamily":"Feloidea",
           "family":"Viverridae",
           "subfamily":"Paradoxurinae",
           "genus":"Arctictis",
@@ -72,6 +75,7 @@
           "order":"Artiodactyla",
           "family":"Cervidae",
           "subfamily":"Capreolinae",
+          "without_rank":"Pecora",
           "tribe":"Rangiferini",
           "genus":"Rangifer",
           "species":"R. tarandus"
@@ -93,7 +97,9 @@
           "class":"Mammalia",
           "order":"Carnivora",
           "suborder":"Caniformia",
+          "superfamily":"Canoidea",
           "family":"Canidae",
+          "tribe":"Canini",
           "genus":"Cuon",
           "species":"C. alpinus"
         },
@@ -113,9 +119,10 @@
           "phylum":"Chordata",
           "class":"Mammalia",
           "order":"Artiodactyla",
+          "suborder":"Suina",
           "family":"Suidae",
           "subfamily":"Babyrousinae",
-          "genus":"Babyrousa",
+          "genus":"Babyrousa"
         },
         "distribution":"Hirscheber sind endemisch auf der indonesischen Insel Sulawesi und vorgelagerten Inseln wie den Togian-Inseln. Eine Art lebt auch auf der Molukken-Insel Buru; hierher wurde sie aber offenbar durch Menschen gebracht.",
         "habitat":"Habitat ist der tropische Regenwald.",
@@ -135,6 +142,7 @@
           "order":"Cingulata",
           "family":"Chlamyphoridae",
           "subfamily":"Chlamyphorinae",
+          "without_rank":"Dasypoda",
           "genus":"Chlamyphorus",
           "species":"C. truncatus"
         },
@@ -155,6 +163,7 @@
           "class":"Mammalia",
           "order":"Carnivora",
           "suborder":"Feliformia",
+          "superfamily":"Feloidea",
           "family":"Eupleridae",
           "genus":"Cryptoprocta",
           "species":"C. ferox"
@@ -195,7 +204,9 @@
           "phylum":"Chordata",
           "class":"Mammalia",
           "order":"Carnivora",
+          "superfamily":"Canoidea",
           "family":"Canidae",
+          "tribe":"Canini",
           "genus":"Chrysocyon",
           "species":"C. brachyurus"
         },
@@ -216,7 +227,6 @@
           "class":"Aves",
           "order":"Pelecaniformes",
           "family":"Balaenicipitidae",
-          "bonaparte","1853",
           "genus":"Balaeniceps",
           "species":"B. rex"
         },
@@ -280,6 +290,7 @@
          "suborder":"Ruminantia",
          "family":"Cervidae",
          "subfamily":"Cervinae",
+         "without_rank":"Pecora",
          "genus":"Cervus",
          "species":"C. canadensis"
        },
@@ -300,7 +311,9 @@
          "class":"Mammalia",
          "order":"Carnivora",
          "suborder":"Caniformia",
+         "superfamily":"Canoidea",
          "family":"Ursidae",
+         "subfamily":"Ursinae",
          "genus":"Ursus",
          "species":"U. maritimus"
        },
@@ -321,7 +334,9 @@
          "class":"Mammalia",
          "order":"Carnivora",
          "suborder":"Feliformia",
+         "superfamily":"Feloidea",
          "family":"Felidae",
+         "subfamily":"Felinae",
          "genus":"Lynx",
          "species":"L. rufus"
        },
@@ -343,8 +358,10 @@
          "order":"Primates",
          "suborder":"Haplorhini",
          "infraorder":"Simiiformes",
+         "superfamily":"Hominoidea",
          "family":"Hominidae",
          "subfamily":"Ponginae",
+         "without_rank":"Catarrhini",
          "genus":"Pongo"
        },
        "distribution":"Noch vor einer Million Jahren kamen die Orang-Utans in ausgedehnten Gebieten Südostasiens vor. Ihr ursprüngliches Verbreitungsgebiet reichte vom südlichen China über Thailand, Vietnam bis nach Java, was durch Fossilienfunde in Südchina, Vietnam und der Insel Java belegt ist. In Teilen dieses Gebietes dürften sie zumindest bis vor wenigen tausend Jahren überlebt haben.\nOrang-Utans kommen heute nur mehr auf den Inseln Borneo und Sumatra vor. Auf Sumatra bewohnen sie die nordwestlichen Regionen und Teile der Westküste, auf Borneo sind sie vorwiegend in den südlichen und östlichen Regionen anzutreffen.",
@@ -365,7 +382,10 @@
          "order":"Primates",
          "suborder":"Haplorhini",
          "infraorder":"Simiiformes",
+         "superfamily":"Cercopithecoidea",
          "family":"Cercopithecidae",
+         "subfamily":"Colobinae",
+         "tribe":"Presbytini",
          "genus":"Nasalis"
        },
        "distribution":"Der Nasenaffe kommt ausschließlich auf der Insel Borneo vor, er bewohnt die Küstenregionen und die tiefergelegenen Gebiete. Dort lebt er hauptsächlich in Mangrovenwäldern.",
@@ -403,6 +423,7 @@
          "phylum":"Chordata",
          "class":"Amphibia",
          "order":"Urodela",
+         "superfamily":"Ambystomatidae",
          "family":"Ambystomatidae",
          "genus":"Ambystoma",
          "species":"A. mexicanum"
@@ -447,6 +468,7 @@
          "order":"Artiodactyla",
          "family":"Cervidae",
          "subfamily":"Capreolinae",
+         "tribe":"Alceini",
          "genus":"Alces",
          "species":"A. alces"
        },
@@ -467,7 +489,9 @@
          "class":"Mammalia",
          "order":"Carnivora",
          "suborder":"Caniformia",
+         "superfamily":"Canoidea",
          "family":"Canidae",
+         "tribe":"Vulpini",
          "genus":"Vulpes",
          "species":"V. vulpes"
        },
@@ -488,7 +512,9 @@
          "class":"Mammalia",
          "order":"Carnivora",
          "suborder":"Caniformia",
+         "superfamily":"Canoidea",
          "family":"Canidae",
+         "tribe":"Canini",
          "genus":"Canis",
          "species":"C. lupus"
        },
@@ -507,10 +533,12 @@
          "kingdom":"Animalia",
          "phylum":"Chordata",
          "class":"Mammalia",
+         "superorder":"Euarchontoglires",
          "order":"Primates",
-         "suborder":"Haplorrhini",
          "infraorder":"Tarsiiformes",
-         "family":"Tarsiidae"
+         "suborder":"Haplorrhini",
+         "family":"Tarsiidae",
+         "without_rank":"Euarchonta"
        },
        "distribution":"Koboldmakis bewohnen die südostasiatische Inselwelt. Ihr Verbreitungsgebiet umfasst das südliche Sumatra, Borneo, die südlichen Philippinen und die Insel Sulawesi – jeweils samt vorgelagerter Inseln. Anhand der Verbreitung lassen sich drei Artengruppen erkennen, die sich auch im Körperbau und im Verhalten teilweise voneinander unterscheiden: die Sunda-Gruppe (auf Sumatra und Borneo), die Philippinen-Gruppe (beide mit jeweils nur einer Art) und die Sulawesi-Gruppe (mit den restlichen Arten) – siehe auch Innere Systematik.\nKoboldmakis sind neben den Makaken und den Menschen die einzigen Primaten, die die Wallace-Linie überschritten haben. Alle anderen Primaten kommen nur westlich dieser biogeographischen Trennlinie zwischen Borneo und Sulawesi vor. Übereinstimmungen im Körperbau und der Lebensweise lassen annehmen, dass die Besiedelung Sulawesis durch die Koboldmakis von Norden über die Philippinen erfolgte, nicht von Westen über das viel näher liegende Borneo. Dafür spricht auch die Existenz von endemischen Arten auf den zwischen den Philippinen und Sulawesi gelegenen Inseln Sangihe und Siau.",
        "habitat":"Diese Tiere finden sich in einer Vielzahl von Lebensräumen. Vorrangig leben sie in Wäldern wie Regen-, Berg-, Galerie- und Mangrovenwäldern, aber auch beispielsweise in Sumpfgebieten und Bambusdickichten. Generell bevorzugen sie dicht mit Unterholz bestandene Gebiete und benötigen Pflanzendickichte als Schlafplätze. Sie kommen vom Meeresspiegel bis in 1500 Meter Seehöhe vor, einzig der Zwergkoboldmaki kommt vermutlich nur zwischen 1800 und 2200 Metern Seehöhe vor.",
@@ -528,7 +556,7 @@
          "phylum":"Chordata",
          "class":"Mammalia",
          "superorder":"Afrotheria",
-         "order":"Sirenia",
+         "order":"Sirenia"
        },
        "distribution":"Die Verbreitungsgebiete der heute lebenden Seekühe überschneiden sich nicht und liegen teilweise sehr weit voneinander entfernt. So findet man die einzige heute noch lebende Art der Gabelschwanzseekühe (Dugongidae), den Dugong (Dugong dugon), ausschließlich an Meeresküsten des Indischen Ozeans, einschließlich des Roten Meeres, und des süd-westlichen Pazifischen Ozeans vor. Die Arten der Rundschwanzseekühe (Trichechidae) leben zum einen im Golf von Mexiko vor den Küsten Floridas und den südöstlichen USA, den Küsten Mittelamerikas und der Karibischen Inseln sowie den nördlichen Küsten Südamerikas (Karibik-Manati, Trichechus manatus), daneben im Gebiet des Amazonas in Südamerika (Amazonas-Manati, Trichechus inunguis) und schließlich an den Küsten Westafrikas zwischen dem Senegal und dem nördlichen Angola und in den dortigen Flusssystemen wie dem Niger und anderen westafrikanischen Flüssen (Afrikanischer Manati, Trichechus senegalensis).",
        "habitat":"Während alle heute noch lebenden Arten in tropischen Gewässern leben, lag der Lebensraum der ausgestorbenen Stellerschen Seekuh in den polaren Gewässern des Beringmeeres.",
@@ -545,6 +573,7 @@
          "kingdom":"Animalia",
          "phylum":"Chordata",
          "class":"Mammalia",
+         "superorder":"Laurasiatheria",
          "order":"Perissodactyla",
          "family":"Tapiridae",
          "genus":"Tapirus"
@@ -565,6 +594,7 @@
          "phylum":"Chordata",
          "class":"Mammalia",
          "order":"Eulipotyphla",
+         "suborder":"Laurasiatheria",
          "family":"Erinaceidae"
        },
        "distribution":"Igel sind auf die Alte Welt beschränkt, sie kommen in Europa, Afrika und Teilen Asiens vor. In Amerika fehlen sie ebenso wie in Australien. Während sich das Verbreitungsgebiet der Stacheligel von den Britischen Inseln und der Iberischen Halbinsel bis nach Südafrika beziehungsweise Korea und Indien erstreckt, sind die Rattenigel auf Südostasien beschränkt.",

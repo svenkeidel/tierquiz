@@ -71,17 +71,20 @@ const splitIntoSentences = (text) => text.split(/\.|\n/).map(s => s.trim()).filt
 const addOrZero = (obj1,obj2,attr) => obj1.taxonomy[attr] === obj2.taxonomy[attr] ? 1 : 0
   
 const similarTaxonomy = (a1,a2) =>
-  1 * addOrZero(a1,a2,'kingdom') +
-  2 * addOrZero(a1,a2,'phylum') +
-  3 * addOrZero(a1,a2,'class') +
-  4 * addOrZero(a1,a2,'superorder') +
-  5 * addOrZero(a1,a2,'order') +
-  6 * addOrZero(a1,a2,'suborder') +
-  7 * addOrZero(a1,a2,'infraorder') +
-  8 * addOrZero(a1,a2,'superfamily') +
-  9 * addOrZero(a1,a2,'family') +
-  10 * addOrZero(a1,a2,'genus') +
-  11 * addOrZero(a1,a2,'species')
+   1 * addOrZero(a1,a2,'kingdom') +
+   2 * addOrZero(a1,a2,'phylum') +
+   3 * addOrZero(a1,a2,'class') +
+   4 * addOrZero(a1,a2,'superorder') +
+   5 * addOrZero(a1,a2,'order') +
+   6 * addOrZero(a1,a2,'suborder') +
+   7 * addOrZero(a1,a2,'infraorder') +
+   8 * addOrZero(a1,a2,'superfamily') +
+   9 * addOrZero(a1,a2,'family') +
+  10 * addOrZero(a1,a2,'subfamily') +
+  11 * addOrZero(a1,a2,'without_rank') +
+  11 * addOrZero(a1,a2,'tribe') +
+  12 * addOrZero(a1,a2,'genus') +
+  13 * addOrZero(a1,a2,'species')
   
 const animalAttributes = [
     {attribute: "Verbreitung",    text:  (animal) => animal.distribution },
