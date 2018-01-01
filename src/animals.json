@@ -1,7 +1,8 @@
 [
     {
         "species": [ "Gibbon", "Gibbons" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/6/66/Weisshandgibbon_tierpark_berlin.jpg",
+        "link":"https://de.wikipedia.org/wiki/Gibbons",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Weisshandgibbon_tierpark_berlin.jpg/300px-Weisshandgibbon_tierpark_berlin.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -23,7 +24,8 @@
     },
     {
         "species": [ "Gepard", "Geparde" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/a/a9/Cheetah4.jpg",
+        "link":"https://de.wikipedia.org/wiki/Gepard",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cheetah4.jpg/300px-Cheetah4.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -45,7 +47,8 @@
     },
     {
         "species": [ "Binturong", "Binturongs" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/a/a7/Binturong_in_Overloon.jpg",
+        "link":"https://de.wikipedia.org/wiki/Binturong",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Binturong_in_Overloon.jpg/300px-Binturong_in_Overloon.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -67,7 +70,8 @@
     },
     {
         "species": [ "Rentier", "Rentiere", "Karibu"],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/e/e0/Rentier_fws_1.jpg",
+        "link":"https://de.wikipedia.org/wiki/Ren",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rentier_fws_1.jpg/300px-Rentier_fws_1.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -90,7 +94,8 @@
     },
     {
         "species": [ "Rothund", "Rothunde" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/3/35/Asian_red_dog.jpg",
+        "link":"https://de.wikipedia.org/wiki/Rothund",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Asian_red_dog.jpg/300px-Asian_red_dog.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -113,7 +118,8 @@
     },
     {
         "species": [ "Hirscheber", "Hirscheber" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/Hirscheber1a.jpg",
+        "link":"https://de.wikipedia.org/wiki/Hirscheber",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hirscheber1a.jpg/300px-Hirscheber1a.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -134,7 +140,8 @@
     },
     {
         "species": [ "Gürtelmull", "Gürtelmulle" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/2/21/Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg",
+        "link":"https://de.wikipedia.org/wiki/G%C3%BCrtelmull",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg/300px-Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -156,7 +163,8 @@
     },
     {
         "species": [ "Fossa", "Fossas" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/a/a6/Cryptoprocta_Ferox.JPG",
+        "link":"https://de.wikipedia.org/wiki/fossa",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Cryptoprocta_Ferox.JPG/300px-Cryptoprocta_Ferox.JPG",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -178,7 +186,8 @@
     },
     {
         "species": [ "Weißkopfseeadler", "Weißkopfseeadler" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/1/1e/2010-bald-eagle-kodiak.jpg",
+        "link":"https://de.wikipedia.org/wiki/Wei%C3%9Fkopfseeadler",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2010-bald-eagle-kodiak.jpg/300px-2010-bald-eagle-kodiak.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -198,7 +207,8 @@
     },
     {
         "species": [ "Mähnenwolf", "Mähnenwölfe" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Maned_Wolf_6%2C_Beardsley_Zoo%2C_2009-11-06.jpg",
+        "link":"https://de.wikipedia.org/wiki/M%C3%A4hnenwolf",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Maned_Wolf_6%2C_Beardsley_Zoo%2C_2009-11-06.jpg/300px-Maned_Wolf_6%2C_Beardsley_Zoo%2C_2009-11-06.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -220,7 +230,8 @@
     },
     {
         "species": [ "Schuhschnabel", "Schuhschnäbel", "Schuhschnabels" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Balaeniceps_rex_qtl2.jpg",
+        "link":"https://de.wikipedia.org/wiki/schuhschnabel",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Balaeniceps_rex_qtl2.jpg/300px-Balaeniceps_rex_qtl2.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -240,7 +251,8 @@
     },
     {
         "species": [ "Okapi", "Okapis" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/1/18/Okapi2.jpg",
+        "link":"https://de.wikipedia.org/wiki/okapi",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Okapi2.jpg/300px-Okapi2.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -260,7 +272,8 @@
     },
     {
         "species": [ "Narwal", "Narwale" ],
-        "image":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Pod_Monodon_monoceros.jpg",
+        "link":"https://de.wikipedia.org/wiki/nawal",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pod_Monodon_monoceros.jpg/300px-Pod_Monodon_monoceros.jpg",
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -281,7 +294,8 @@
     },
     {
        "species": ["Wapiti", "Wapitis"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/Wapiti.jpg",
+        "link":"https://de.wikipedia.org/wiki/wapiti",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Wapiti.jpg/300px-Wapiti.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -304,7 +318,8 @@
    },
    {
        "species": ["Eisbär", "Eisbären", "Polarbär", "Polarbären"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Polar_bear_after_unlucky_hunt_for_a_seal.jpg",
+        "link":"https://de.wikipedia.org/wiki/Eisb%C3%A4r",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Polar_bear_after_unlucky_hunt_for_a_seal.jpg/300px-Polar_bear_after_unlucky_hunt_for_a_seal.jpg",
        "taxonomy": {
          "kingdom":"Andmali",
          "phylum":"Chordata",
@@ -327,7 +342,8 @@
    },
    {
        "species": ["Rotluchs", "Rotluchse", "Bobcat", "Luchs"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Bobcat2.jpg",
+        "link":"https://de.wikipedia.org/wiki/rotluchs",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bobcat2.jpg/300px-Bobcat2.jpg/300px-300px-Bobcat2.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -350,7 +366,8 @@
    },
    {
        "species": ["Orang-Utan", "Orang-Utans"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/d/d3/OrangutanP1.jpg",
+       "link":"https://de.wikipedia.org/wiki/Orang-Utans",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/OrangutanP1.jpg/300px-OrangutanP1.jpg/300px-300px-OrangutanP1.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -374,7 +391,8 @@
    },
    {
        "species": ["Nasenaffe", "Nasenaffen"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Proboscis_Monkey_in_Borneo.jpg",
+       "link":"https://de.wikipedia.org/wiki/nasenaffe",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Proboscis_Monkey_in_Borneo.jpg/300px-Proboscis_Monkey_in_Borneo.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -398,7 +416,8 @@
    },
    {
        "species": ["Kiwi", "Kiwis", "Schnepfenstrauß", "Schnepfenstrauße"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/0/02/Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg",
+       "link":"https://de.wikipedia.org/wiki/kiwis",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg/300px-Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -417,7 +436,8 @@
    },
    {
      "species": ["Axolotl"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/f/fc/Axolotl_Uni_Konstanz.JPG",
+       "link":"https://de.wikipedia.org/wiki/axolotl",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Axolotl_Uni_Konstanz.JPG/300px-Axolotl_Uni_Konstanz.JPG",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -438,7 +458,8 @@
    },
    {
        "species": ["Fingertier", "Fingertiere", "Aye-Aye"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/f/ff/Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg",
+       "link":"https://de.wikipedia.org/wiki/fingertier",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg/300px-Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -460,7 +481,8 @@
    },
    {
        "species": ["Elch", "Elche"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/4/47/Bigbullmoose.jpg",
+       "link":"https://de.wikipedia.org/wiki/elch",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bigbullmoose.jpg/300px-Bigbullmoose.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -482,7 +504,8 @@
    },
    {
        "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfüchse", "Rotfuches", "Stadtfuchs", "Stadtfüchse"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg",
+       "link":"https://de.wikipedia.org/wiki/Fuchs_(Raubtier)",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg/300px-Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -505,7 +528,8 @@
    },
    {
        "species": ["Wolf", "Wölfe"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/0/07/Canis_lupus_laying.jpg",
+       "link":"https://de.wikipedia.org/wiki/wolf",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Canis_lupus_laying.jpg/300px-Canis_lupus_laying.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -528,7 +552,8 @@
    },
    {
        "species": ["Koboldmaki", "Koboldmakis"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/5/59/Tarsier-GG.jpg",
+       "link":"https://de.wikipedia.org/wiki/koboldmakis",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tarsier-GG.jpg/300px-Tarsier-GG.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -550,7 +575,8 @@
    },
    {
        "species": ["Seekuh", "Seekühe"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/b/b1/Manatee_photo.jpg",
+       "link":"https://de.wikipedia.org/wiki/Seek%C3%BChe",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Manatee_photo.jpg/300px-Manatee_photo.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -568,7 +594,8 @@
    },
    {
        "species": ["Tapir", "Tapire"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/d/de/Tapir_in_Costa_Rica.jpg",
+       "link":"https://de.wikipedia.org/wiki/tapire",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tapir_in_Costa_Rica.jpg/300px-Tapir_in_Costa_Rica.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -588,7 +615,8 @@
    },
    {
        "species": ["Igel", "Stacheligel", "Rattenigel", "Stacheligel", "Langohrigel", "Wüstenigel"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/3/30/Je%C5%BE_Hedgehog_1.JPG",
+       "link":"https://de.wikipedia.org/wiki/igel",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Je%C5%BE_Hedgehog_1.JPG/300px-Je%C5%BE_Hedgehog_1.JPG",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -607,7 +635,8 @@
    },
    {
        "species": ["Koala", "Koalas"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
+       "link":"https://de.wikipedia.org/wiki/koala",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/300px-Koala_climbing_tree.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -628,7 +657,8 @@
    },
    {
        "species": ["Faultier", "Faultiere", "Zweifinger-Faultier", "Zweifinger-Faultiere", "Dreifinger-Faultier", "Dreifinger-Faultiere"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/2_toed_sloth.jpg",
+       "link":"https://de.wikipedia.org/wiki/faultiere",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2_toed_sloth.jpg/300px-2_toed_sloth.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -646,7 +676,8 @@
    },
    {
        "species": ["Wickelbär", "Wickelbären"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/7/73/Yawning_kinkajou.jpg",
+       "link":"https://de.wikipedia.org/wiki/Wickelb%C3%A4r",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Yawning_kinkajou.jpg/300px-Yawning_kinkajou.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -666,7 +697,8 @@
    },
    {
        "species": ["Präriehund", "Präriehunde"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/d/dd/Praeriehunde_3.jpg",
+       "link":"https://de.wikipedia.org/wiki/Pr%C3%A4riehunde",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Praeriehunde_3.jpg/300px-Praeriehunde_3.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -686,7 +718,8 @@
    },
    {
        "species": ["Beutelteufel", "Tasmanischer Teufel", "Tasmanischer Beutelteufel"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Tasdevil_large.jpg",
+       "link":"https://de.wikipedia.org/wiki/beutelteufel",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Tasdevil_large.jpg/300px-Tasdevil_large.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -707,7 +740,8 @@
    },
    {
        "species": ["Wombat", "Wombats"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+       "link":"https://de.wikipedia.org/wiki/wombats",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/300px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -727,7 +761,8 @@
    },
    {
        "species": ["Ameisenigel", "Schnabeligel", "Kurzschabeligel", "Langschnabeligel"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/Wild_shortbeak_echidna.jpg",
+       "link":"https://de.wikipedia.org/wiki/ameisenigel",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wild_shortbeak_echidna.jpg/300px-Wild_shortbeak_echidna.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -746,7 +781,8 @@
    },
    {
        "species": ["Gürteltier", "Gürteltiere"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/4/49/Armadillo2.jpg",
+       "link":"https://de.wikipedia.org/wiki/G%C3%BCrteltiere",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Armadillo2.jpg/300px-Armadillo2.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -766,7 +802,8 @@
    },
    {
        "species": ["Kapuzineraffe", "Kapuzineraffen"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/4/40/Capuchin_Costa_Rica.jpg",
+       "link":"https://de.wikipedia.org/wiki/Kapuzineraffen",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Capuchin_Costa_Rica.jpg/300px-Capuchin_Costa_Rica.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -785,7 +822,8 @@
    },
    {
        "species": ["Wisent", "Wisente"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/2/26/Bison_bonasus_%28Linnaeus_1758%29.jpg",
+       "link":"https://de.wikipedia.org/wiki/wisent",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bison_bonasus_%28Linnaeus_1758%29.jpg/300px-Bison_bonasus_%28Linnaeus_1758%29.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -806,7 +844,8 @@
    },
    {
        "species": ["Kleine Panda", "Kleiner Panda", "Kleine Pandas", "Kleinen Pandas", "Roter Panda", "Rote Pandas", "Katzenbär"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/6/64/Ailurus_fulgens_RoterPanda_LesserPanda-2.jpg",
+       "link":"https://de.wikipedia.org/wiki/Kleiner_Panda",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ailurus_fulgens_RoterPanda_LesserPanda-2.jpg/300px-Ailurus_fulgens_RoterPanda_LesserPanda-2.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -829,7 +868,8 @@
    },
    {
        "species": ["Waschbär", "Waschbären"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/f/f1/Procyon_lotor_qtl2.jpg",
+       "link":"https://de.wikipedia.org/wiki/Waschb%C3%A4r",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Procyon_lotor_qtl2.jpg/300px-Procyon_lotor_qtl2.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -852,7 +892,8 @@
    },
    {
        "species": ["Tiger"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/2/2c/An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg",
+       "link":"https://de.wikipedia.org/wiki/tiger",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg/300px-An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -875,7 +916,8 @@
    },
    {
        "species": ["Walross", "Walrosse"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Noaa-walrus22.jpg",
+       "link":"https://de.wikipedia.org/wiki/walross",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Noaa-walrus22.jpg/300px-Noaa-walrus22.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -897,7 +939,8 @@
    },
    {
        "species": ["Takin", "Takine"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/2/29/Sichuan_Takin_Juvenile_159.jpg",
+       "link":"https://de.wikipedia.org/wiki/takin",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sichuan_Takin_Juvenile_159.jpg/300px-Sichuan_Takin_Juvenile_159.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -921,7 +964,8 @@
    },
    {
        "species": ["Nebelparder"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/7/7d/Neofelis_nebulosa.jpg",
+       "link":"https://de.wikipedia.org/wiki/nebelparder",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Neofelis_nebulosa.jpg/300px-Neofelis_nebulosa.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -943,7 +987,8 @@
    },
    {
        "species": ["Honigdachs", "Honigdachse"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/a/af/Honey_badger.jpg",
+       "link":"https://de.wikipedia.org/wiki/honigdachs",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Honey_badger.jpg/300px-Honey_badger.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -966,8 +1011,9 @@
        "socialStructure":"Wie die meisten Marder leben Honigdachse vorwiegend als Einzelgänger, manchmal kann man auch mehrere Tiere, meist Familien, Pärchen oder kleine Männchengruppen, gemeinsam beobachten. Sie haben relativ große, oft viele Quadratkilometer umfassende Streifgebiete. Sie dürften kein ausgeprägtes Territorialverhalten haben, markieren aber auffällige Punkte auf ihrer Wanderroute mit dem Sekret ihrer Analdrüsen, um Artgenossen ihre Anwesenheit mitzuteilen."
    },
    {
-       "species": ["Fleckenmusang", "Fleckenmusangs"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/a/a3/Marapatti.jpg",
+       "species": ["Musang", "Musangs", "Fleckenmusang", "Fleckenmusangs"],
+       "link":"https://de.wikipedia.org/wiki/fleckenmusang",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Marapatti.jpg/300px-Marapatti.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -990,7 +1036,8 @@
    },
    {
        "species": ["Serval", "Servale"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/6/6d/Serval_in_Tanzania.jpg",
+       "link":"https://de.wikipedia.org/wiki/serval",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Serval_in_Tanzania.jpg/300px-Serval_in_Tanzania.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1013,7 +1060,8 @@
    },
    {
        "species": ["Schuppentier", "Schuppentiere"],
-       "image":"https://upload.wikimedia.org/wikipedia/commons/4/42/Pangolin_borneo.jpg",
+       "link":"https://de.wikipedia.org/wiki/schuppentiere",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pangolin_borneo.jpg/300px-Pangolin_borneo.jpg",
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1030,5 +1078,143 @@
        "reproduction":"Über das Paarungsverhalten der Schuppentiere ist wenig bekannt. Es ist höchstwahrscheinlich nicht jahreszeitlich gebunden, möglicherweise mit Ausnahme des Chinesischen Schuppentiers. Bei dieser Art kämpfen mehrere Männchen im Spätsommer oder Herbst sehr aggressiv um das Paarungsvorrecht. In der Regel durchstreifen männliche Tiere jede Nacht mehrere weibliche Territorien auf der Suche nach brünftigen Weibchen, was sie anhand der Duftspuren erkennen. Vor allem beim Weißbauch- und beim Langschwanzschuppentier wurden Paarungsrituale beobachtet. So unternehmen Männchen und Weibchen Scheinwettkämpfe mit Schlägen Brust gegen Brust, bis sich das weibliche Tier unterwirft. Meist klammert sich das Weibchen dann an den Schwanz des Männchens, der es zum Paarungsplatz zieht. Während der Paarung sind die Schwänze der Tiere miteinander verflochten. Paare teilen sich dann über mehrere Tage einen Rastplatz. Die Tragzeit liegt bei afrikanischen Schuppentieren bei 130–150 Tagen, bei asiatischen ist sie möglicherweise kürzer und dürfte zwei bis drei Monate dauern. In der Regel bringt das Weibchen ein einziges Neugeborenes zur Welt, das bei den meisten Arten sehr weit entwickelt ist. Das Geburtsgewicht liegt je nach Art zwischen 70 und 425 g, die Geburtslänge zwischen 15 und 30 cm. Die Neugeborenen haben geöffnete Augen, die Schuppen sind nicht überlappend und zunächst weich, sie härten in den ersten Lebenstagen aus. Weibchen haben ein Paar achselständige Zitzen, mit denen das Junge gesäugt wird.\nBei den baumlebenden Arten verbleibt das Jungtier in der ersten Woche in einer Baumhöhle, erst dann klettert es auf die Schwanzwurzel des Muttertiers und kann so bis zur Entwöhnung getragen werden. Bei den bodenbewohnenden Arten kommen die Jungen unterirdisch zur Welt und bleiben dort etwa zwei bis vier Wochen, bis sie die Höhle an den Schwanz der Mutter geklammert erstmals verlassen. Bei Gefahr rutscht es in der Regel auf die Bauchseite und das Muttertier bedeckt es mit dem Schwanz. Nach zwei bis vier Wochen, spätestens aber nach drei Monaten nimmt das Jungtier erstmals feste Nahrung zu sich, oft wird es zunächst auf der Schwanzwurzel der Mutter zu den Nahrungsquellen getragen. Nach rund fünf Monaten erfolgt die Trennung von der Mutter, die Geschlechtsreife tritt mit ein bis zwei Jahren ein. Das höchste bekannte Alter eines Schuppentieres in menschlicher Obhut betrug etwas mehr als 19 Jahre.",
        "diet":"Die Nahrung der Schuppentiere besteht in erster Linie aus Ameisen und Termiten (Myrmecophagie), wobei sie äußerst selektiv vorgehen. Nur größere Arten wie das Riesenschuppentier oder das Vorderindische Schuppentier nehmen gelegentlich auch andere Insekten oder sonstige Wirbellose zu sich, etwa Käfer, Schaben oder Würmer. Dabei vertilgen die Tiere einen vergleichsweise großen Anteil an Biomasse, der bei 300 bis 400 g pro Tag für die kleinsten Vertreter und bei 2 kg für die größten liegt. Die Nahrung wird mit dem außergewöhnlich guten Geruchssinn aufgespürt, wobei der Boden ständig mit der Nase abgesucht wird, teilweise graben Tiere auch Tunnel, um Nester zu erreichen. Mit den Grabkrallen brechen die Schuppentiere Insektenbauten oder Baumrinde auf und mit der klebrigen Zunge nehmen sie ihre Nahrung zu sich. Die Augen, Ohren und Nasenlöcher sind verschließbar und verhindern das Eindringen von Insekten während des Fressens. Insekten, die auf den Körper gelangen, werden abgeschüttelt. Beim Fressen erheben sie sich meist auf die Hinterbeine. In der Regel dauert der Fressvorgang mehrere Stunden, der Bau wird dabei nicht vollständig zerstört. Meist kehrt ein Tier mehrmals hintereinander über mehrere Tage hinweg zum gleichen Ameisen- oder Termitennest zurück, erst wenn die Beute deutlich rarer wird, sucht es sich einen anderen.",
        "socialStructure":"Generell ist die Lebensweise und das Sozialverhalten der Schuppentiere nur wenig erforscht. Sie leben meist einzelgängerisch, lediglich in der Paarungszeit kommt es kurzfristig zu Paarbindungen. Die Hauptaktivität findet während der Dämmerung oder Nacht statt, vereinzelt können Tiere auch tagsüber beobachtet werden. Die einzelnen Individuen sind weitgehend ortsgebunden und nutzen Aktionsräume, die bei Männchen mit 30 bis 43 ha deutlich größer sind als bei Weibchen mit 3 bis 7 ha. Dabei überschneidet das Gebiet eines männlichen Tieres mehrere von weiblichen, bei einigen Arten kann auf eine gewisse Territorialität geschlossen werden, da die Männchen ihr Revier aktiv gegen Konkurrenten verteidigen. Für die Kommunikation unter Artgenossen spielt vermutlich das Sekret der Analdrüsen eine wichtige Rolle, ebenso wie bei der Kennzeichnung der Territorien."
+   },
+   {
+       "species": ["Fuchsmanguste", "Fuchsmangusten"],
+       "link":"https://de.wikipedia.org/wiki/fuchsmanguste",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cynictis_penicillata.jpg/300px-Cynictis_penicillata.jpg",
+       "taxonomy": {
+           "kingdom":"Animalia",
+           "phylum":"Chordata",
+           "class":"Mammalia",
+           "superorder":"Laurasiatheria",
+           "order":"Carnivora",
+           "superfamily":"Feloidea",
+           "family":"Herpestidae"
+       },
+       "distribution":"Die Fuchsmanguste lebt im südlichen Afrika, genauer gesagt in Südafrika, Namibia, Botswana, Simbabwe und dem südlichen Angola.",
+       "habitat":"Ihre bevorzugten Habitate sind Savannen und Halbwüsten.",
+       "behavior":"Fuchsmangusten sind tagaktive Tiere, die nachts in ihren Bauen bleiben. Sie können graben, bevorzugen aber das Übernehmen von bereits vorhandenen Bauen, die zum Beispiel von Erdhörnchen oder Springhasen angelegt wurden. Manchmal bewohnen sie gemeinsame Baue mit Erdmännchen.",
+       "characteristic":"Die Fellfarbe wechselt mit dem Verbreitungsgebiet. Südliche Unterarten haben ein rötlich-gelbliches, nördliche ein gelbgraues Fell. Bei manchen Tieren kommt es zusätzlich zu einem saisonalen Fellwechsel: während der Sommermonate ist es rötlicher, im Winter blasser. Die Unterseite und die Schwanzspitze sind weiß gefärbt. Die kurzen, runden Ohren und der buschige Schwanz verstärken das fuchsähnliche Aussehen. Die Kopfrumpflänge beträgt 27 bis 38 Zentimeter, hinzu kommen 18 bis 28 Zentimeter Schwanz. Das Gewicht erwachsener Tiere beträgt 440 bis 800 Gramm, in Ausnahmefällen bis zu 1 Kilogramm.",
+       "reproduction":"Ein oder zweimal im Jahr bringen die Weibchen nach rund 60- bis 62-tägiger Tragzeit ein bis drei (meist zwei) Jungtiere zur Welt. Diese werden nach sechs bis acht Wochen entwöhnt und mit rund einem Jahr geschlechtsreif. Die Lebenserwartung beträgt bis zu 15 Jahre in menschlicher Obhut.",
+       "diet":"Die Nahrung der Fuchsmanguste besteht meistens aus Insekten, zu weit geringeren Anteilen auch aus Nagetieren, Vögeln und Eiern.",
+       "socialStructure":"Sie leben in Familiengruppen, die meist aus vier bis acht Tieren bestehen."
+   },
+   {
+       "species": ["Hyäne", "Hyänen", "Erdwolf", "Erdwölfe"],
+       "link":"https://de.wikipedia.org/wiki/Hy%C3%A4nen",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Crocuta-hejda.jpg/300px-Crocuta-hejda.jpg",
+       "taxonomy": {
+           "kingdom":"Animalia",
+           "phylum":"Chordata",
+           "class":"Mammalia",
+           "subclass":"Eutheria",
+           "superorder":"Laurasiatheria",
+           "order":"Carnivora",
+           "suborder":"Feliformia",
+           "infraorder":"Viverroidea",
+           "superfamily":"Feloidea",
+           "family":"Hyaenidae"
+       },
+       "distribution":"Hyänen sind in weiten Teilen Afrikas und im westlichen und südlichen Asien beheimatet. In Afrika reicht ihr Verbreitungsgebiet vom Atlasgebirge bis nach Südafrika, sie fehlen allerdings in den reinen Wüstengebieten der Sahara und im Kongobecken. In Asien kommen sie von der Türkei und der Arabischen Halbinsel über Afghanistan bis nach Indien vor. Noch im Pleistozän waren sie über weite Teile Eurasiens verbreitet, mit Chasmaporthetes ist hingegen nur eine ausgestorbene Gattung bekannt, die auch in Nordamerika vorkam. In Südamerika und Australien gab es nie Hyänen.\nIn Asien kommt mit der Streifenhyäne nur eine Art vor; diese bewohnt auch das nördliche Afrika und hat somit das nördlichste Verbreitungsgebiet aller Arten. Die Tüpfelhyäne ist in weiten Teilen Afrikas südlich der Sahara beheimatet. Der Erdwolf lebt in zwei voneinander getrennten Gebieten im östlichen und südlichen Afrika, die Schabrackenhyäne bewohnt ein relativ kleines Gebiet im Süden des Kontinents.",
+       "habitat":"Generell bewohnen Hyänen eher trockene Gebiete wie Halbwüsten, Savannen, Buschsteppen und felsige Bergländer; manchmal sind sie auch in Sumpfgebieten und Gebirgswäldern zu finden. Im Äthiopischen Hochland sind sie bis in 4100 m anzutreffen. Allerdings meiden sie reine Sandwüsten ebenso wie Tiefland-Regenwälder. Hyänen sind in der Regel nicht sehr wählerisch in Bezug auf ihren Lebensraum, jede der vier Arten kommt in mehreren Habitaten vor. Sie haben wenig Scheu vor Menschen und halten sich gelegentlich auch in der Nähe menschlicher Ansiedlungen auf.",
+       "behavior":"Hyänen sind digitigrad (Zehengänger) und halten sich ausschließlich am Boden auf. Sie können nicht auf Bäume klettern, kommen aber mit felsigem Terrain gut zurecht. Sie sind sehr ausdauernde Tiere: Schabrackenhyänen können pro Nacht mehr als 50 Kilometer zurücklegen.[5] Alle Hyänenarten sind größtenteils nachtaktiv, nur selten gehen sie in der Dämmerung oder – im Fall der Tüpfelhyäne – auch tagsüber bei bewölktem, regnerischem Wetter auf Nahrungssuche. Tagsüber schlafen sie in Erdbauen, im Gebüsch verborgen oder auf dem Erdboden. So schlafen Erdwölfe häufig in Bauen, die sie von Springhasen oder anderen Tieren übernommen haben; manchmal legen Hyänen auch ihre eigenen Unterschlupfe an oder nehmen mit Felsspalten vorlieb. Die Tüpfelhyäne benutzt außer zur Aufzucht der Jungtiere keine Baue.\nDa die Reviere oft riesige Ausmaße haben und die Tiere oft allein unterwegs sind, spielt die olfaktorische Kommunikation, das heißt mittels Gerüchen, eine wichtige Rolle. Anhand des Analbeutelsekrets können Hyänen das Geschlecht, den Reproduktionsstatus und die Gruppenzugehörigkeit anderer Hyänen erkennen. Bei den Eigentlichen Hyänen gibt es ein spezielles Begrüßungsritual, das Mitglieder derselben Gruppe zeigen, wenn sie zusammenkommen: Sie schnuppern an der Nase oder am Analbeutel des anderen Tiers oder lecken dessen Rücken ab. Bei Tüpfelhyänen spielen dabei zusätzlich die erigierten Geschlechtsorgane – sowohl der Männchen als auch der Weibchen – eine Rolle, die vom gegenüberstehenden Tier beschnuppert oder beleckt werden.\nDrei der vier Hyänenarten geben nur wenige Laute von sich. Bestenfalls stoßen sie Knurr- oder Kreischlaute aus, die nur über geringe Distanzen vernehmbar sind. Im Gegensatz dazu besitzt die Tüpfelhyäne ein reichhaltiges Repertoire lautlicher Kommunikation. Der am häufigsten zu hörende Laut ist ein lautes wuup, das über mehrere Kilometer hinweg wahrgenommen werden kann und der Kontaktaufnahme mit anderen Clanmitgliedern dient. Auch geben sie grunzende, weinende und muhende Laute von sich. Bekannt ist schließlich noch der Lach- oder Kicherlaut, der dem menschlichen Lachen ähnelt; er signalisiert, dass das Tier einen niedrigeren Rang akzeptiert.",
+       "characteristic":"Die Kopf-Rumpf-Länge beträgt 55–160 cm, der Schwanz ist mit 20–40 cm relativ kurz. Die Schulterhöhe misst 45–81 cm, die Vorderbeine sind länger und kräftiger gebaut als die Hinterbeine, was die Ursache für den bei allen Hyänenarten typischen, schräg nach hinten abfallenden Rücken darstellt. Die Weibchen der Tüpfelhyänen, die größte Art, sind rund 10 % größer als die Männchen; bei den anderen Arten gibt es keinen signifikanten Geschlechtsdimorphismus hinsichtlich der Größe. Die Eigentlichen Hyänen wiegen 26–55 kg, wobei einzelne Tüpfelhyänen bis zu 86 kg erreichen;[1] der Erdwolf ist mit 8–14 kg die bei weitem kleinste und leichteste Art. Hyänen haben an Vorder- und Hinterbeinen vier Zehen, außer dem Erdwolf, der an den Vorderbeinen je einen Zeh mehr aufweist. Die Pfoten tragen stumpfe, nicht einziehbare Krallen.\nDie Deckhaare sind rau, mit Ausnahme der Tüpfelhyäne besitzen alle Arten eine lange Rückenmähne, die sich von den Ohren bis zum Schwanz erstreckt. Diese Mähne kann aufgerichtet werden, wodurch das Tier größer erscheint. Beim Fell der einzelnen Arten zeigen sich verschiedene Brauntöne, die Tüpfelhyäne ist gefleckt, die Streifenhyäne und der Erdwolf sind gestreift, nur die Schabrackenhyäne ist weitgehend einfarbig. Der Schwanz ist buschig.\nDie Weibchen haben ein bis drei Paare Zitzen, den Männchen fehlt – im Unterschied zu den meisten anderen Raubtieren – der Penisknochen (Baculum). Weibliche Tüpfelhyänen weisen eine, unter den Säugetieren einmalige, Maskulinisierung („Vermännlichung“) auf: Die Clitoris ist vergrößert, die Schamlippen sind verschlossen und bilden eine hodensackähnliche Struktur. Das Urinieren, die Begattung und Geburt erfolgen durch die Clitoris. Heranwachsende Streifenhyänen haben Wölbungen im Genitaltrakt, ausgewachsen zeigen sie jedoch, ebenso wie die beiden anderen Hyänenarten, keine Besonderheiten im Bau des Geschlechtstraktes. Beide Geschlechter besitzen einen gut entwickelten Analbeutel, aus dem ein Sekret abgegeben wird, das zur Reviermarkierung dient.",
+       "reproduction":"Das Paarungsverhalten der Hyänen ist unterschiedlich. Häufig herrscht ein promiskuitives Verhalten vor, das heißt Männchen und Weibchen pflanzen sich mit jeweils mehreren Partnern fort. Daneben findet sich bei Streifenhyänen manchmal die, bei Säugetieren seltene, Polyandrie, das heißt ein Weibchen hat mehrere männliche Paarungspartner. Auch die Wahl des Partners ist variabel: Bei Schabrackenhyänen werden gelegentlich die nomadischen Männchen, die im Gebiet des Clans ohne eigenes Revier und einzelgängerisch herumziehen, als Partner erkoren, was möglicherweise vom Nahrungsangebot abhängt. Bei Erdwölfen begattet in rund 40 % der Zeugungen nicht der Partner, mit dem das Weibchen zusammenlebt, sondern ein aggressiveres, stärkeres Männchen aus einem benachbarten Revier.\nDie Fortpflanzung ist in den meisten Fällen nicht saisonal, sondern kann das ganze Jahr über erfolgen. Nach einer rund 90- bis 110-tägigen Tragzeit bringt das Weibchen ein bis vier Jungtiere zur Welt, in menschlicher Obhut können es fünf sein. Der Entwicklungsgrad der Neugeborenen ist unterschiedlich: Während bei Tüpfelhyänen bei der Geburt bereits die Schneide- und Eckzähne des Milchgebisses vorhanden und die Augen geöffnet sind, sind Streifen- und Schabrackenhyänen weniger weit entwickelt und ihre Augen noch geschlossen. Neugeborene Tüpfelhyänen sind schwarz gefärbt, bei den anderen Arten gleicht die Fellfärbung der Jungtiere jener der ausgewachsenen Tiere, lediglich anstelle der Rückenmähne ist ein dunkler Aalstrich vorhanden.\nNeugeborene Hyänen verbringen ihre ersten Lebenswochen in einem Bau. Bei Tüpfel- und manchmal auch bei Schabrackenhyänen gibt es Gemeinschaftsbaue, in denen die Jungtiere eines Clans gemeinsam aufwachsen. Bei den Erdwölfen bewachen die Männchen im Bau der Mutter den Nachwuchs, der nicht oder nur zum Teil von ihnen gezeugt wurde. Dies ist, soweit bekannt, einzigartig unter Säugetieren. Nach einigen Wochen beginnen die Jungtiere, die Gegend außerhalb des Baus zu erkunden. Nach einigen Monaten unternehmen sie ihre ersten Streifzüge zur Nahrungssuche, anfangs noch in Begleitung eines ausgewachsenen Tieres, später dann allein. Junge Hyänen werden relativ lang gesäugt, Eigentliche Hyänen werden erst mit 12–16 Monaten endgültig entwöhnt. Im zweiten oder dritten Lebensjahr tritt die Geschlechtsreife ein.",
+       "diet":"Die vier Hyänenarten haben hinsichtlich der Ernährung drei verschiedene ökologische Nischen besetzt. Tüpfelhyänen sind aktive Jäger, die 60 bis 95 % ihrer Beute selbst erlegen. Sie haben eine sehr hohe Bandbreite an Beutetieren: das Spektrum reicht von Insekten bis Elefanten. Am häufigsten erlegen sie jedoch größere Huftiere, wie verschiedene Antilopen – etwa Gnus und Gazellen – oder Zebras. Sie jagen je nach Beutetier einzeln oder in Gruppen. Dabei schleichen sich nicht an ihre Opfer heran, sondern verlassen sich auf ihre Ausdauer. Auch die Form des Nahrungserwerbs ist flexibel: Neben selbst gejagten Tieren fressen sie auch Aas oder betreiben Kleptoparasitismus, das heißt, sie jagen anderen Fleischfressern deren Beute ab. Dies wurde bei Schakalen, Geparden, Leoparden, Afrikanischen Wildhunden, den beiden anderen Eigentlichen Hyänen sowie bei Löwen beobachtet.\nStreifen- und Schabrackenhyänen sind Aasfresser, die daneben auch selbst getötete Beutetiere und pflanzliches Material verzehren. Einen Gutteil ihrer Nahrung macht das Aas größerer Wirbeltiere aus. Dank ihres kräftigen Gebisses können sie auch dicke Knochen oder Schildkrötenpanzer zerbrechen, ihr effizientes Verdauungssystem verwertet alle Körperteile eines Tiers mit Ausnahme der Haare, der Hufe und der Hörner. Die im Aas enthaltenen bakteriellen Gifte beeinträchtigen weder ihr Verdauungs- noch ihr Immunsystem. Kleine Säugetiere, Vögel und deren Eier sowie Insekten ergänzen ihren Speiseplan. Es ist unklar, in welchem Ausmaß sie selbst getötete, größere Beutetiere fressen. Sie sind keine guten Jäger, die meisten Jagden scheitern. Eine Ausnahme sind die Schabrackenhyänen der namibischen Küste, die mit großem Erfolg die dort lebenden Jungtiere der Südafrikanischen Seebären jagen.\nErdwölfe fressen nahezu ausschließlich Termiten, dabei haben sie sich auf die Tiere der Gattung Trinervitermes spezialisiert. Die Termiten dieser Gattung bewegen sich in der Nacht in großen Gruppen an der Erdoberfläche fort und werden von Erdwölfen mit deren klebriger Zunge aufgeleckt. Die Soldaten dieser Termiten sondern ein Gift ab, das für alle anderen insektenfressenden Säugetiere unverträglich ist. Dank ihrer Unempfindlichkeit für dieses Gift vermeiden Erdwölfe Nahrungskonkurrenz mit anderen Tieren.\nAußer den in Gruppen jagenden Tüpfelhyänen gehen Hyänen in der Regel einzeln auf Nahrungssuche, bei größeren Beutetieren oder Kadavern können jedoch mehrere Hyänen zusammenkommen und gemeinsam fressen.\nHyänen brauchen nicht zu trinken; wenn Wasser verfügbar ist, trinken sie allerdings täglich. Streifen- und Schabrackenhyänen decken ihren Flüssigkeitsbedarf mit Kürbisgewächsen und anderen Pflanzen.",
+       "socialStructure":"Beim Sozialverhalten gibt es eine große Vielfalt. Tüpfel- und Schabrackenhyänen leben in Gruppen, die „Clans“ genannt werden. Bei beiden Arten bilden Gruppen miteinander verwandter Weibchen den Kern eines Clans, die fortpflanzungsfähigen Männchen sind jeweils zugewandert und nicht mit den Weibchen verwandt. Das Sozialverhalten der Tüpfelhyänen ist einzigartig unter den Raubtieren: Es gleicht dem mancher Altweltaffen, etwa den Pavianen. Bei dieser Art können die Clans bis zu 80 Tiere umfassen, die sich immer wieder in kleinere Untergruppen aufteilen und wieder zusammenkommen. Die Weibchen sind dominant und etablieren eine strikte Rangordnung, wobei die Ränge erblich sind, da die Mütter ihren Töchtern dabei helfen, die gleiche Position wie sie zu erlangen. Die Männchen sind den Weibchen stets untergeordnet und ihr Gruppenrang ist umso höher, je länger sie der Gruppe angehören. Bei den Schabrackenhyänen umfassen die Clans 4–14 Tiere, es existiert je nach Lebensraum eine Varianz in der Lebensweise. Nur bei hoher Populationsdichte etablieren sich Rangordnungen; Männchen und Weibchen haben ihre jeweils eigenen Hierarchien, und beide Geschlechter sind gleichberechtigt. Bei der Streifenhyäne, der am wenigsten erforschten Art, wurden verschiedene Beobachtungen gemacht: Es gibt Berichte über einzelgängerische Tiere, über stabile Paarbindungen und über das Zusammenleben in Gruppen. Vermutlich ist das Sozialverhalten dieser Art variabel. Die Erdwölfe gehen bei der Jungenaufzucht stabile und langlebige Paarbeziehungen ein, allerdings wurden die Jungtiere häufig nicht vom aufziehenden Männchen gezeugt. Außerhalb der Paarungszeit zeigen Erdwölfe kaum Sozialverhalten: Sie bewohnen getrennte Baue und gehen getrennt auf Nahrungssuche.\nHyänen sind territoriale Tiere, die Reviergröße hängt von der Art und dem Nahrungsangebot ab: Die Reviere der Tüpfelhyänen in den beutereichen Savannen Ostafrikas messen rund 20 km², während die Territorien von Tüpfel- und Schabrackenhyänen in den Trockengebieten des südlichen Afrika über 1000 km² groß sein können. Das Revier der Erdwölfe umfasst rund 3000 Termitenhügel und misst 1,5–4 km². Die Reviere werden mit dem streng riechenden Sekret ihrer Analbeutel markiert, welches weißlich oder gelblich gefärbt ist. Es wird in halb hockender Position auf Grasbüschel oder andere Objekte gestreift. Während Tüpfelhyänen häufig nur die Reviergrenzen markieren, bringen die anderen Arten ihre Duftspuren oft auch im Inneren des Territoriums an. Zusätzlich legen alle Arten in der Nähe der Reviergrenzen oder bei häufig begangenen Routen Kotgruben an, in die sie regelmäßig defäkieren. Trifft eine Hyäne ein gruppenfremdes Tier im eigenen Revier an, versucht sie es zu verjagen. Dabei richtet sie – mit Ausnahme der Tüpfelhyäne – ihre Rückenmähne auf und sträubt ihre Schwanzhaare, wodurch sie größer erscheint. Nützt das nichts, versucht sie den Eindringling zu vertreiben, diese Jagden enden an der Reviergrenze. Manchmal kommt es aber auch zu Kämpfen, die mit Bissen ausgetragen werden."
+   },
+   {
+       "species": ["Schopfhirsch", "Schopfhirsche", "Muntjak", "Muntjaks"],
+       "link":"https://de.wikipedia.org/wiki/schupfhirsch",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Tufteddeer-2.jpg/300px-Tufteddeer-2.jpg",
+       "taxonomy": {
+           "kingdom":"Animalia",
+           "phylum":"Chordata",
+           "class":"Mammalia",
+           "order":"Artiodactyla",
+           "without_rank":"Pecora",
+           "tribus_rank":"Muntiacini",
+           "family":"Cervidae",
+           "subfamily":"Cervinae",
+           "genus":"Elaphodus",
+           "species":"E. cephalophus"
+       },
+       "distribution":"Das Verbreitungsgebiet der Schopfhirsche umfasst das südliche China von Tibet bis zu den Provinzen Zhejiang und Fujian, darüber hinaus kommen sie im Norden Myanmars vor.",
+       "habitat":"Lebensraum sind Bergwälder in Höhenlagen zwischen 300 und 4500 Meter. Der Schopfhirsch hält sich allerdings nie weit von Gewässern auf.",
+       "behavior":"Schopfhirsche sind überwiegend dämmerungsaktiv und leben einzelgängerisch. Sie sind territorial und standorttreu. Zur Kommunikation mit Artgenossen dient ein bellendes Geräusch, auf der Flucht wird der Schwanz aufgerichtet, sodass ein weißes „Fluchtsignal“ erscheint. Der Schrecklaut des Schopfhirsches ist ein lautes Bellen. Damit warnt er sein Partnertier und das Jungtier vor Gefahr und lenkt vermutlich auch die Aufmerksamkeit des Störers auf sich. Zu den Fressfeinden des Schopfhirsches zählen Leoparden, Tiger und Bären. Schakale können außerdem auch Jungtiere schlagen.",
+       "characteristic":"Schopfhirsche erreichen eine Kopfrumpflänge von 110 bis 160 Zentimeter, eine Schwanzlänge von 7 bis 15 Zentimeter und eine Schulterhöhe von 50 bis 70 Zentimeter. Das Gewicht erwachsener Tiere variiert von 17 bis 50 Kilogramm. Das raue Fell ist dunkelbraun oder dunkelgrau gefärbt, die Lippen, die Ohrspitzen, die Unterseite des Schwanzes und manchmal die Augenregion sind leuchtend weiß. Namensgebendes Merkmal ist der schwarzbraune, bis zu 17 Zentimeter hohe Haarschopf am Kopf. Dieser Schopf verläuft von den Augen bis zum Hinterkopf. Das Geweih, das nur die Männchen tragen, besteht aus zwei einfachen Stangen, die eine Länge von fünf Zentimeter erreichen und oft gänzlich im Haarschopf verborgen sind. Männchen haben außerdem verlängerte obere Eckzähne, die aus dem Maul ragen.\nDie Unterschiede zur Gattung der Muntjaks (Muntiacus) liegen im größeren Körper, den kleineren Eckzähnen und den kürzeren Rosenstöcken (der knöchernen Basis des Geweihs).",
+       "reproduction":"Die Paarung erfolgt im Spätherbst und Winter, die Geburt fällt nach einer rund siebenmonatigen Tragzeit im Spätfrühling oder Sommer. Die Tragezeigt beträgt durchschnittlich 210 Tage. Üblicherweise kommt ein einzelnes Jungtier zur Welt, Zwillinge sind selten. Jungtiere haben reihenförmig angeordnete weiße Flecken entlang des Rückgrats, sind aber ansonsten wie erwachsene Tiere gefärbt. Ihr Gewicht beträgt ein bis zwei Kilogramm und sind im Vergleich zur Körpergröße der adulten Tiere ungewöhnlich schwer und groß. Die Geschlechtsreife tritt mit 18 Monaten ein. Sie erreichen ein Lebensalter von maximal zwölf Jahren.",
+       "diet":"Die Nahrung der Schopfhirsche besteht aus Gräsern und anderen Pflanzen.",
+       "socialStructure":""
+   },
+   {
+       "species": ["Loris", "Loris", "Schlanklori", "Schlankloris" ],
+       "link":"https://de.wikipedia.org/wiki/schlankloris",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loris_tardigradus.jpg/300px-Loris_tardigradus.jpg",
+       "taxonomy": {
+           "kingdom":"Animalia",
+           "phylum":"Chordata",
+           "class":"Mammalia",
+           "order":"Primates",
+           "suborder":"Strepsirrhini",
+           "family":"Lorisidae",
+           "subfamily":"Lorinae",
+           "genus":"Loris"
+       },
+       "distribution":"Schlankloris sind im östlichen und südlichen Indien sowie auf der Insel Sri Lanka beheimatet.",
+       "habitat":"Ihr Lebensraum sind Wälder, wobei sie in verschiedenen Waldformen vorkommen können, bevorzugt aber Gebiete mit dichtem Unterholz bewohnen.",
+       "behavior":"Diese Primaten sind nachtaktive Baumbewohner. Ihre Bewegungen sind langsam und bedächtig, dank ihrer modifizierten Pfoten haben sie einen festen, kaum zu lösenden Griff im Geäst. Sie sind sozialer als die anderen Loris, sie schlafen manchmal in Gruppen und interagieren auch während der nächtlichen Nahrungssuche manchmal.",
+       "characteristic":"Schlankloris sind kleine, zierliche Primaten. Sie erreichen eine Kopfrumpflänge von 18 bis 26 Zentimeter, ein Schwanz ist nicht vorhanden. Ihr Gewicht beträgt 0,1 bis 0,3 Kilogramm. Ihr Fell ist an der Oberseite rötlich, braun oder grau gefärbt, der Bauch ist heller, oft hellgrau oder weißlich. Die Gliedmaßen sind sehr dünn, die zweiten Finger der Pfoten sind rückgebildet. Der Kopf ist durch die großen, rundlichen Augen charakterisiert, die von rotbraunen Feldern umgeben sind. Die Ohren sind abgerundet und am Rand unbehaart.",
+       "reproduction":"Das Männchen pflanzt sich mit den Weibchen fort, deren Reviere mit seinem überlappen. Nach rund 170-tägiger Tragzeit kommt in der Regel ein Jungtier zur Welt. Dieses wird nach sechs bis sieben Monaten entwöhnt und mit zehn Monaten geschlechtsreif. Die Lebenserwartung in menschlicher Obhut beträgt über 15 Jahre.",
+       "diet":"Ihre Nahrung besteht vorwiegend aus Insekten. In geringem Ausmaß nehmen sie auch kleine Wirbeltiere sowie pflanzliches Material zu sich.",
+       "socialStructure":""
+   },
+   {
+       "species": ["Klippschliefer", "Schliefer"],
+       "link":"https://de.wikipedia.org/wiki/klippschliefer",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rock_Hyrax_%28Procavia_capensis%29_%287042223567%29.jpg/300px-Rock_Hyrax_%28Procavia_capensis%29_%287042223567%29.jpg",
+       "taxonomy": {
+           "kingdom":"Animalia",
+           "phylum":"Chordata",
+           "class":"Mammalia",
+           "order":"Hyracoidea",
+           "family":"Procaviidae",
+           "genus":"Procavia",
+           "species":"P. capensis"
+       },
+       "distribution":"Meistens werden heute alle Klippschliefer zu einer Art, Procavia capensis, zusammengefasst. Diese hat ein bemerkenswert großes Verbreitungsgebiet, das vom südafrikanischen Kap über Ost-, Zentral- und Westafrika bis in die Halbwüsten beidseits der Sahara sowie nach Westasien reicht.",
+       "habitat":"Klippschliefer kommen in ariden und felsigen Gebieten Afrikas und Westasiens vor.",
+       "behavior":"Klippschliefer sind sie bei Tage aktiv und bewegen sich flink auf den Felsen. Bei Gefahr fliehen sie rasch in Felsspalten oder andere Unterschlupfe. Sie mögen das Sonnenlicht; bei Kälte und Regen bleiben sie meistens in ihren Höhlen und lassen sich nicht blicken. Nachts senken sie ihre Körpertemperatur um ungefähr 4 °C ab, um Energie zu sparen. Daher wärmen sie sich morgens als erstes in der Sonne wieder auf, bevor sie sich anderen Aktivitäten widmen.\nZu den Fressfeinden der Klippschliefer zählen Leoparden, Schakale, Mangusten, Wiesel und Greifvögel. Klippschliefer wissen sich zu wehren und verteidigen sich beißend und kratzend, wenn sie gepackt werden. Manchmal gelingt es ihnen dadurch, sich aus dem Griff eines Raubtiers zu lösen und in ihr Versteck zu fliehen.\nIn einigen afrikanischen Ländern werden die Klippschliefer wegen ihres Fleisches und Felles gejagt. Zudem gibt es vor allem in Südafrika Forderungen von Farmern, die Schlieferpopulationen zu reduzieren, da sie Nahrungskonkurrenten für Schafe seien. Diese Behauptungen werden jedoch von Naturschützern stark bezweifelt.",
+       "characteristic":"Sie wiegen etwa 2 bis 4,5 Kilogramm. In der Farbe sind Klippschliefer sehr variabel; alle Brauntöne können vorkommen. In der Gestalt ähneln sie einem Pfeifhasen oder einem Murmeltier, diese Ähnlichkeit ist aber rein äußerlich.\nIn der Anatomie weist der Klippschliefer all die für Schliefer typischen Merkmale auf wie die kleinen Hufe, die einziehbaren Fußsohlen und die mit andersfarbigen Haaren bedeckte Rückendrüse. Von den drei Zehen an den Hinterfüßen trägt die innere eine Kralle, die mittlere und die außenliegende sind wie bei den Vorderfüßen mit knotenförmigen Hufen ausgeprägt. Ihre ansonsten kaum erkennbare Verwandtschaft zu den Elefanten und Seekühen wird an den beiden ständig nachwachsenden Zähnen im Oberkiefer sichtbar. Die oberen Schneidezähne der Klippschliefer sind halbkreisförmig gebogene, breitseitige Prismen, die unteren liegen fast horizontal und reichen weit in den Kiefer. Die Oberlippe ist gespalten, der Schwanz nur ein Stummel.\nEine Besonderheit stellt ihre Iris dar, die sich so weit verengen kann, dass die Klippschliefer stundenlang direkt in die Sonne blicken können.",
+       "reproduction":"Die Tragzeit beträgt 225 Tage. Der Wurf besteht aus zwei bis drei Jungen. Die Neugeborenen sind sehr weit entwickelt. Sie kommen mit offenen Augen zur Welt und können sofort umherlaufen. Die Lebensdauer in Gefangenschaft kann elf Jahre betragen. Aufgrund des Jagddrucks dürfte sie in freier Wildbahn sehr viel kürzer sein.",
+       "diet":"Als Nahrung dienen alle pflanzlichen Stoffe. Bei der Nahrungssuche können Klippschliefer auch auf Bäume klettern. Da sie genug Flüssigkeit aus der Nahrung ziehen, müssen Klippschliefer nicht trinken; wenn aber Wasser in der Nähe ist, stillen sie damit ihren Durst. Klippschliefer verbringen weniger als eine Stunde am Tag mit Fressen. Das ist für ein pflanzenfressendes Tier sehr wenig.",
+       "socialStructure":"Klippschliefer leben in Kolonien von bis zu 50 Tieren in zerklüfteten Landstrichen. Die Kolonien bestehen aus einer oder mehreren Familien, die jeweils von einem Männchen geführt werden, ansonsten aber nur aus Weibchen und Jungtieren bestehen. Zwischen den Familien gibt es kaum Interaktionen, obwohl sie dicht beieinander leben. Innerhalb der Familienverbände wachen die Männchen darüber, dass keine fremden Männchen in das Territorium eindringen. Männliche Jungtiere werden vor Erreichen der Geschlechtsreife vertrieben. Weibchen verhalten sich dagegen nicht territorial. So kann es auch vorkommen, dass sich ein fremdes Weibchen einer Gruppe anschließt. Ein oder mehrere Individuen halten in solchen Kolonien Wache und warnen die anderen Gruppenmitglieder vor nahenden Raubtieren mit einem bellenden Laut."
+   },
+   {
+       "species": ["Mantelaffe", "Mantelaffen"],
+       "link":"https://de.wikipedia.org/wiki/mantelaffe",
+       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Colubusmonkey.JPG/300px-Colubusmonkey.JPG",
+       "taxonomy": {
+           "kingdom":"Animalia",
+           "phylum":"Chordata",
+           "class":"Mammalia",
+           "order":"Primates",
+           "suborder":"Haplorhini",
+           "infraorder":"Simiiformes",
+           "superfamily":"Cercopithecoidea",
+           "family":"Cercopithecidae",
+           "subfamily":"Colobinae",
+           "tribus":"Colobini",
+           "genus":"Colobus",
+           "species":"C. guereza"
+       },
+       "distribution":"Mantelaffen sind im zentralen Afrika beheimatet, ihr Verbreitungsgebiet reicht von Nigeria bis Äthiopien und Tansania.",
+       "habitat":"Ihr Habitat sind Wälder oder baumbestandene Savannen, wobei sie sowohl in Regen- als auch in trockenen und Gebirgswäldern bis über 3000 Meter Seehöhe vorkommen. Am häufigsten sind sie in Sekundärwäldern und entlang von Flüssen.",
+       "behavior":"Mantelaffen sind tagaktive Tiere, die meistens auf Bäumen leben. Wenn die Bäume nicht dicht beieinander stehen, bewegen sie sich auch am Boden fort. Sie bilden Haremsgruppen von rund 8 bis 15 Tieren, die sich aus einem Männchen, zwei bis sechs Weibchen und deren Jungtieren zusammensetzen. Männchen bilden manchmal Junggesellengruppen, die aber nicht dauerhaft sind. Mantelaffen sind territoriale Tiere, eine Gruppe bewohnt ein Revier von rund 15 Hektar Größe. Durch Brüllkonzerte der Männchen machen die Gruppen aufeinander aufmerksam, nähert sich eine andere Gruppe dem eigenen Territorium, wird sie durch laute Schreie, durch aggressive Gesten wie Hüpfen und nötigenfalls durch Gewalt vertrieben. Allerdings teilen sich manchmal mehrere Gruppen eine Wasserquelle.",
+       "characteristic":"Mantelaffen sind große, relativ schwer gebaute Tiere. Ihr Fell ist auffallend schwarz-weiß gemustert: Die Grundfärbung ist schwarz, weiß sind die Umrahmung des Gesichtes, der U-förmige lange „Mantel“ an Schultern und Rücken, die Außenseiten der Hüften sowie die buschige Schwanzquaste. Wie bei allen Stummelaffen ist der Daumen rückgebildet, was eine Anpassung an die baumbewohnende Lebensweise darstellt. Das Gesicht ist grau gefärbt und unbehaart, die Nasenlöcher sind langgezogen und reichen fast bis zum Mund. Mantelaffen erreichen eine Kopfrumpflänge von 50 bis 67 Zentimeter, der buschige Schwanz wird 52 bis 90 Zentimeter lang. Das Gewicht variiert zwischen 7 und 14 Kilogramm, wobei die Männchen deutlich schwerer werden als die Weibchen.",
+       "reproduction":"In den meisten Fällen haben Mantelaffen keine feste Paarungssaison, es kann das ganze Jahr über zu Geburten kommen. In vielen Regionen sind aber die meisten Geburten zeitlich so angelegt, dass zum Zeitpunkt der Entwöhnung das größte Nahrungsangebot vorhanden ist. Nach einer rund 175-tägigen Tragzeit bringt das Weibchen meist ein einzelnes Jungtier zur Welt. Dieses ist weiß gefärbt und entwickelt erst mit einigen Monaten die typische Fellzeichnung der Erwachsenen. Es ist üblich, dass ein Weibchen sein Jungtier auch den anderen Weibchen der Gruppe überlässt, sogar das Säugen von anderen Jungen ist beobachtet worden. Die Entwöhnung erfolgt mit rund sechs Monaten.\nDie Geschlechtsreife tritt bei Weibchen mit rund vier, bei Männchen mit rund sechs Jahren ein. Männliche Tiere müssen kurz vorher ihre Geburtsgruppe verlassen, während die Weibchen oft in der gleichen Gruppe bleiben.\nDie Lebenserwartung beträgt in menschlicher Obhut bis zu 24 Jahren.",
+       "diet":"Mantelaffen sind reine Pflanzenfresser, wobei unreife Blätter den Großteil ihrer Nahrung ausmachen. In geringem Ausmaß nehmen sie auch reife Blätter, Früchte und Knospen zu sich. Sie besitzen einen vierkammerigen Magen, wobei die oberen beiden Kammern als „Gärkammern“ mit speziellen Bakterien der Aufspaltung der Zellulose dienen; erst danach kommt die vorverdaute Nahrung in die unteren Mägen, wo sie weiter zersetzt wird. Dieses Verdauungssystem stellt eine Anpassung an die nährstoffarme Blätternahrung dar.\nZum Fressen sitzen sie auf einem Ast und ziehen die Äste mit den Händen heran. Manchmal bleibt eine Gruppe tagelang auf einem einzigen Baum.",
+       "socialStructure":""
    }
 ]

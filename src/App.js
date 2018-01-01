@@ -175,6 +175,8 @@ class Guesser extends Component {
         <div>
           <h2>Die Lösung ist {this.props.animal.species[0]}</h2>
           <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
+          <br/> 
+          Quelle: <a href={this.props.animal.link}>Wikipedia</a>
         </div>
       );
     } else if(this.answered() && this.answeredCorrectly() === 0) {
@@ -182,6 +184,8 @@ class Guesser extends Component {
         <div>
           <h2>Korrekt. Gratulation</h2>
           <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
+          <br/>
+          Quelle: <a href={this.props.animal.link}>Wikipedia</a>
         </div>
       );
     } else {
