@@ -172,7 +172,7 @@ class Guesser extends Component {
   render() {
     if(this.state.resolved) {
       return (
-        <div>
+        <div className="guesser">
           <h2>Die Lösung ist {this.props.animal.species[0]}</h2>
           <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
           <br/> 
@@ -181,7 +181,7 @@ class Guesser extends Component {
       );
     } else if(this.answered() && this.answeredCorrectly() === 0) {
       return (
-        <div>
+        <div className="guesser">
           <h2>Korrekt. Gratulation</h2>
           <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
           <br/>
@@ -190,7 +190,7 @@ class Guesser extends Component {
       );
     } else {
       return (
-        <div>
+        <div className="guesser">
           <Form inline>
             <FormGroup
               controlId="formBasicText"
@@ -204,8 +204,8 @@ class Guesser extends Component {
                 onChange={(s) => this.handleChange(s)}
               />
             </FormGroup>
-            <Button onClick={() => this.resolve()}>Auflösen</Button>
           </Form>
+          <Button onClick={() => this.resolve()}>Auflösen</Button>
         </div>
       );
     }
@@ -231,8 +231,8 @@ class GuessAnimal extends Component {
       <div>
         <h1>Errate das Tier</h1>
         {animalAttributes.slice(0,this.state.lastAttr).map((attr,i) => <AnimalAttribute key={i.toString()} animal={this.animal} attr={animalAttributes[i]} difficulty={this.props.difficulty}/>)}
-        <Guesser animal={this.animal} />
         {this.state.lastAttr < animalAttributes.length && <Button onClick={() => this.nextCategory()}>Nächste Kategorie</Button>}
+        <Guesser animal={this.animal} />
       </div>
     );
   }

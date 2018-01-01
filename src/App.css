@@ -35,6 +35,10 @@ button {
   margin:0em 0em 1em 0em;
 }
 
+.guesser {
+  margin:1em 1em 1em 1em;
+}
+
 .trivia {
   width:85%;
   display: inline-block;
