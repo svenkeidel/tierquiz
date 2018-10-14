@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/lib/Form'
 import FormControl from 'react-bootstrap/lib/FormControl'
 import FormGroup from 'react-bootstrap/lib/FormGroup'
 import ControlLabel from 'react-bootstrap/lib/ControlLabel'
+import Col from 'react-bootstrap/lib/Col'
 
 import './App.css';
 import animals from './animals.json';
@@ -53,15 +54,17 @@ const revealNth = (n) => (maskedSentences) => {
 }
 
 const maskText = (animal) => (text) => {
-  let masks = animal.species.concat(animal.species.map(s => s.toLowerCase()))
-  return masks.reduceRight((t,s) => t.replace(new RegExp(s,'g'),"..."),text)
+  
+  let masks = animal.species.concat(animal.species.map(s => s.toLowerCase()),
+                                    animal.hasOwnProperty('mask') ? animal.mask.concat(animal.mask.map(s => s.toLowerCase())) : new Array())
+  return text.replace(new RegExp(masks.reverse().join("|"),'g'),"...")
 };
 
 const printMaskedSentence = (animal,onClick) => (maskedSentence,i) => {
   if(maskedSentence.masked === "shown")
     return maskText(animal)(maskedSentence.text + ". ")
   else
-      return <a onClick={() => onClick(i)}>[...] </a>;
+    return <a key={i} onClick={() => onClick(i)}>[...] </a>;
 };
 
 const printMaskedSentences = (animal,onClick,maskedSentences) => maskedSentences.map(printMaskedSentence(animal,onClick))
@@ -87,15 +90,34 @@ const similarTaxonomy = (a1,a2) =>
   13 * addOrZero(a1,a2,'species')
   
 const animalAttributes = [
-    {attribute: "Verbreitung",    text:  (animal) => animal.distribution },
-    {attribute: "Habitat",        text:  (animal) => animal.habitat },
-    {attribute: "Ernährung",      text:  (animal) => animal.diet },
-    {attribute: "Sozialstruktur", text:  (animal) => animal.socialStructure },
-    {attribute: "Fortpflanzung",  text:  (animal) => animal.reproduction},
-    {attribute: "Verhalten",      text:  (animal) => animal.behavior},
-    {attribute: "Merkmale",       text:  (animal) => animal.characteristic},
-    {attribute: "Bild",           image: (animal) => animal.image}
+  {attribute: "Verbreitung",    text:  (animal) => animal.distribution },
+  {attribute: "Habitat",        text:  (animal) => animal.habitat },
+  {attribute: "Ernährung",      text:  (animal) => animal.diet },
+  {attribute: "Sozialstruktur", text:  (animal) => animal.socialStructure },
+  {attribute: "Fortpflanzung",  text:  (animal) => animal.reproduction},
+  {attribute: "Verhalten",      text:  (animal) => animal.behavior},
+  {attribute: "Merkmale",       text:  (animal) => animal.characteristic},
+  {attribute: "Bild",           image: (animal) => animal.image}
 ];
+
+class RevealImage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      revealed: false
+    }
+  }
+
+  reveal() {
+    this.setState({revealed:true})
+  }
+
+  render() {
+    return (this.state.revealed || this.props.revealed)
+      ? <img className="animal" src={this.props.image} alt="Abbildung des Tiers"/>
+      : <Button onClick={() => this.reveal()}>Bild anzeigen</Button>
+  }
+}
 
 class AnimalAttribute extends Component {
   constructor(props) {
@@ -123,10 +145,8 @@ class AnimalAttribute extends Component {
       <div>
         <h3>{this.props.attr.attribute}</h3>
         { this.props.attr.hasOwnProperty('text')
-          ?
-          <p lang="de">{printMaskedSentences(this.props.animal,(n) => this.revealNth(n),this.state.text)}</p>
-          :
-          <img className="animal" src={this.state.image} alt="Abbildung des Tiers"/>
+          ? <p lang="de">{printMaskedSentences(this.props.animal,(n) => this.revealNth(n),this.state.text)}</p>
+          : <RevealImage image={this.state.image} revealed={this.props.resolved} />
         }
       </div>
     );
@@ -144,6 +164,10 @@ class Guesser extends Component {
 
   handleChange(e) {
     this.setState({answer: e.target.value})
+    this.state.answer = e.target.value
+    if(this.answered() && this.answeredCorrectly() === 0) {
+      this.resolve();
+    }
   }
 
   answered() {
@@ -156,6 +180,7 @@ class Guesser extends Component {
 
   resolve() {
     this.setState({resolved:true})
+    this.props.onResolve();
   }
 
   getValidationState() {
@@ -174,7 +199,6 @@ class Guesser extends Component {
       return (
         <div className="guesser">
           <h2>Die Lösung ist {this.props.animal.species[0]}</h2>
-          <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
           <br/> 
           Quelle: <a href={this.props.animal.link}>Wikipedia</a>
         </div>
@@ -183,7 +207,6 @@ class Guesser extends Component {
       return (
         <div className="guesser">
           <h2>Korrekt. Gratulation</h2>
-          <img className="animal" src={this.props.animal.image} alt="Abbildung des Tiers"/>
           <br/>
           Quelle: <a href={this.props.animal.link}>Wikipedia</a>
         </div>
@@ -191,21 +214,24 @@ class Guesser extends Component {
     } else {
       return (
         <div className="guesser">
-          <Form inline>
+          <Form horizontal>
             <FormGroup
               controlId="formBasicText"
               validationState={this.getValidationState()}
             >
-              <ControlLabel>Name des Tiers</ControlLabel>
-              <FormControl
-                type="text"
-                value={this.state.answer}
-                placeholder="Name des Tiers"
-                onChange={(s) => this.handleChange(s)}
-              />
+              <Col >
+                <FormControl
+                  type="text"
+                  value={this.state.answer}
+                  placeholder="Name des Tiers"
+                  onChange={(s) => this.handleChange(s)}
+                />
+              </Col>
+              <Col>
+                <Button onClick={() => this.resolve()}>Auflösen</Button>
+              </Col>
             </FormGroup>
           </Form>
-          <Button onClick={() => this.resolve()}>Auflösen</Button>
         </div>
       );
     }
@@ -217,22 +243,27 @@ class GuessAnimal extends Component {
     super(props);
     this.animal = this.props.animal
     this.state = {
-      lastAttr: 1,
-      answer: null
-    };
+      resolved: false
+    }
   }
-  
-  nextCategory() {
-    this.setState({lastAttr:this.state.lastAttr+1})
+
+  resolve() {
+    this.setState({resolved: true})
   }
   
   render() {
     return (
       <div>
         <h1>Errate das Tier</h1>
-        {animalAttributes.slice(0,this.state.lastAttr).map((attr,i) => <AnimalAttribute key={i.toString()} animal={this.animal} attr={animalAttributes[i]} difficulty={this.props.difficulty}/>)}
-        {this.state.lastAttr < animalAttributes.length && <Button onClick={() => this.nextCategory()}>Nächste Kategorie</Button>}
-        <Guesser animal={this.animal} />
+        {animalAttributes.map(
+          (attr,i) => <AnimalAttribute
+            key={i.toString()}
+            animal={this.animal}
+            attr={animalAttributes[i]}
+            difficulty={this.props.difficulty}
+            resolved={this.state.resolved}
+            />)}
+        <Guesser animal={this.animal} onResolve={() => this.resolve()} />
       </div>
     );
   }
