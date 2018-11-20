@@ -3,6 +3,7 @@
         "species": [ "Gibbon", "Gibbons" ],
         "link":"https://de.wikipedia.org/wiki/Gibbons",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Weisshandgibbon_tierpark_berlin.jpg/300px-Weisshandgibbon_tierpark_berlin.jpg",
+        "popularity": 23400000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -26,6 +27,7 @@
         "species": [ "Gepard", "Geparde" ],
         "link":"https://de.wikipedia.org/wiki/Gepard",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cheetah4.jpg/300px-Cheetah4.jpg",
+        "popularity": 106000000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -49,6 +51,7 @@
         "species": [ "Binturong", "Binturongs" ],
         "link":"https://de.wikipedia.org/wiki/Binturong",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Binturong_in_Overloon.jpg/300px-Binturong_in_Overloon.jpg",
+        "popularity": 606000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -72,6 +75,7 @@
         "species": [ "Rentier", "Rentiere", "Karibu"],
         "link":"https://de.wikipedia.org/wiki/Ren",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rentier_fws_1.jpg/300px-Rentier_fws_1.jpg",
+        "popularity": 128000000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -96,6 +100,7 @@
         "species": [ "Rothund", "Rothunde" ],
         "link":"https://de.wikipedia.org/wiki/Rothund",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Asian_red_dog.jpg/300px-Asian_red_dog.jpg",
+        "popularity": 3810000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -120,6 +125,7 @@
         "species": [ "Hirscheber", "Hirscheber" ],
         "link":"https://de.wikipedia.org/wiki/Hirscheber",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hirscheber1a.jpg/300px-Hirscheber1a.jpg",
+        "popularity": 401000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -142,6 +148,7 @@
         "species": [ "Gürtelmull", "Gürtelmulle" ],
         "link":"https://de.wikipedia.org/wiki/G%C3%BCrtelmull",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg/300px-Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg",
+        "popularity": 86100,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -165,6 +172,7 @@
         "species": [ "Fossa", "Fossas" ],
         "link":"https://de.wikipedia.org/wiki/fossa",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Cryptoprocta_Ferox.JPG/300px-Cryptoprocta_Ferox.JPG",
+        "popularity": 19400000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -188,6 +196,7 @@
         "species": [ "Weißkopfseeadler", "Weißkopfseeadler" ],
         "link":"https://de.wikipedia.org/wiki/Wei%C3%9Fkopfseeadler",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2010-bald-eagle-kodiak.jpg/300px-2010-bald-eagle-kodiak.jpg",
+        "popularity": 92200000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -209,6 +218,7 @@
         "species": [ "Mähnenwolf", "Mähnenwölfe" ],
         "link":"https://de.wikipedia.org/wiki/M%C3%A4hnenwolf",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Maned_Wolf_6%2C_Beardsley_Zoo%2C_2009-11-06.jpg/300px-Maned_Wolf_6%2C_Beardsley_Zoo%2C_2009-11-06.jpg",
+        "popularity": 2180000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -232,6 +242,7 @@
         "species": [ "Schuhschnabel", "Schuhschnäbel", "Schuhschnabels" ],
         "link":"https://de.wikipedia.org/wiki/schuhschnabel",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Balaeniceps_rex_qtl2.jpg/300px-Balaeniceps_rex_qtl2.jpg",
+        "popularity": 957000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -253,6 +264,7 @@
         "species": [ "Okapi", "Okapis" ],
         "link":"https://de.wikipedia.org/wiki/okapi",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Okapi2.jpg/300px-Okapi2.jpg",
+        "popularity": 13000000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -274,6 +286,7 @@
         "species": [ "Narwal", "Narwale" ],
         "link":"https://de.wikipedia.org/wiki/nawal",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pod_Monodon_monoceros.jpg/300px-Pod_Monodon_monoceros.jpg",
+        "popularity": 11300000,
         "taxonomy": {
           "kingdom":"Animalia",
           "phylum":"Chordata",
@@ -296,6 +309,7 @@
        "species": ["Wapiti", "Wapitis"],
         "link":"https://de.wikipedia.org/wiki/wapiti",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Wapiti.jpg/300px-Wapiti.jpg",
+       "popularity": 279000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -320,6 +334,7 @@
        "species": ["Eisbär", "Eisbären", "Polarbär", "Polarbären"],
         "link":"https://de.wikipedia.org/wiki/Eisb%C3%A4r",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Polar_bear_after_unlucky_hunt_for_a_seal.jpg/300px-Polar_bear_after_unlucky_hunt_for_a_seal.jpg",
+       "popularity": 181000000,
        "taxonomy": {
          "kingdom":"Andmali",
          "phylum":"Chordata",
@@ -344,6 +359,7 @@
        "species": ["Rotluchs", "Rotluchse", "Bobcat", "Luchs"],
         "link":"https://de.wikipedia.org/wiki/rotluchs",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bobcat2.jpg/300px-Bobcat2.jpg",
+       "popularity": 99500000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -368,6 +384,7 @@
        "species": ["Orang-Utan", "Orang-Utans"],
        "link":"https://de.wikipedia.org/wiki/Orang-Utans",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/OrangutanP1.jpg/300px-OrangutanP1.jpg",
+       "popularity": 24700000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -393,6 +410,7 @@
        "species": ["Nasenaffe", "Nasenaffen"],
        "link":"https://de.wikipedia.org/wiki/nasenaffe",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Proboscis_Monkey_in_Borneo.jpg/300px-Proboscis_Monkey_in_Borneo.jpg",
+       "popularity": 2870000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -418,6 +436,7 @@
        "species": ["Kiwi", "Kiwis", "Schnepfenstrauß", "Schnepfenstrauße"],
        "link":"https://de.wikipedia.org/wiki/kiwis",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg/300px-Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg",
+       "popularity": 49800000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -438,6 +457,7 @@
      "species": ["Axolotl"],
        "link":"https://de.wikipedia.org/wiki/axolotl",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Axolotl_Uni_Konstanz.JPG/300px-Axolotl_Uni_Konstanz.JPG",
+       "popularity": 10700000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -459,6 +479,7 @@
    {
        "species": ["Fingertier", "Fingertiere", "Aye-Aye"],
        "link":"https://de.wikipedia.org/wiki/fingertier",
+       "popularity": 77300000,
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg/300px-Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg",
        "taxonomy": {
          "kingdom":"Animalia",
@@ -483,6 +504,7 @@
        "species": ["Elch", "Elche"],
        "link":"https://de.wikipedia.org/wiki/elch",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bigbullmoose.jpg/300px-Bigbullmoose.jpg",
+       "popularity": 183000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -506,6 +528,7 @@
        "species": ["Fuchs", "Füchse", "Rotfuchs", "Rotfüchse", "Rotfuches", "Stadtfuchs", "Stadtfüchse"],
        "link":"https://de.wikipedia.org/wiki/Fuchs_(Raubtier)",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg/300px-Vulpes_vulpes_1_%28Martin_Mecnarowski%29.jpg",
+       "popularity": 925000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -530,6 +553,7 @@
        "species": ["Wolf", "Wölfe"],
        "link":"https://de.wikipedia.org/wiki/wolf",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Canis_lupus_laying.jpg/300px-Canis_lupus_laying.jpg",
+       "popularity": 912000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -554,6 +578,7 @@
        "species": ["Koboldmaki", "Koboldmakis"],
        "link":"https://de.wikipedia.org/wiki/koboldmakis",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tarsier-GG.jpg/300px-Tarsier-GG.jpg",
+       "popularity": 1920000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -577,6 +602,7 @@
        "species": ["Seekuh", "Seekühe", "Manati", "Manatis"],
        "link":"https://de.wikipedia.org/wiki/Seek%C3%BChe",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Manatee_photo.jpg/300px-Manatee_photo.jpg",
+       "popularity": 24300000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -596,6 +622,7 @@
        "species": ["Tapir", "Tapire"],
        "link":"https://de.wikipedia.org/wiki/tapire",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tapir_in_Costa_Rica.jpg/300px-Tapir_in_Costa_Rica.jpg",
+       "popularity": 13000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -617,6 +644,7 @@
        "species": ["Igel", "Stacheligel", "Rattenigel", "Stacheligel", "Langohrigel", "Wüstenigel"],
        "link":"https://de.wikipedia.org/wiki/igel",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Je%C5%BE_Hedgehog_1.JPG/300px-Je%C5%BE_Hedgehog_1.JPG",
+       "popularity": 102000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -637,6 +665,7 @@
        "species": ["Koala", "Koalas"],
        "link":"https://de.wikipedia.org/wiki/koala",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/300px-Koala_climbing_tree.jpg",
+       "popularity": 83100000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -659,6 +688,7 @@
        "species": ["Faultier", "Faultiere", "Zweifinger-Faultier", "Zweifinger-Faultiere", "Dreifinger-Faultier", "Dreifinger-Faultiere"],
        "link":"https://de.wikipedia.org/wiki/faultiere",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2_toed_sloth.jpg/300px-2_toed_sloth.jpg",
+       "popularity": 45400000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -678,6 +708,7 @@
        "species": ["Wickelbär", "Wickelbären"],
        "link":"https://de.wikipedia.org/wiki/Wickelb%C3%A4r",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Yawning_kinkajou.jpg/300px-Yawning_kinkajou.jpg",
+       "popularity": 1030000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -699,6 +730,7 @@
        "species": ["Präriehund", "Präriehunde"],
        "link":"https://de.wikipedia.org/wiki/Pr%C3%A4riehunde",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Praeriehunde_3.jpg/300px-Praeriehunde_3.jpg",
+       "popularity": 5500000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -720,6 +752,7 @@
        "species": ["Beutelteufel", "Tasmanischer Teufel", "Tasmanischer Beutelteufel"],
        "link":"https://de.wikipedia.org/wiki/beutelteufel",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Tasdevil_large.jpg/300px-Tasdevil_large.jpg",
+       "popularity": 27700000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -742,6 +775,7 @@
        "species": ["Wombat", "Wombats"],
        "link":"https://de.wikipedia.org/wiki/wombats",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/300px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+       "popularity": 15000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -763,6 +797,7 @@
        "species": ["Ameisenigel", "Schnabeligel", "Kurzschabeligel", "Langschnabeligel"],
        "link":"https://de.wikipedia.org/wiki/ameisenigel",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wild_shortbeak_echidna.jpg/300px-Wild_shortbeak_echidna.jpg",
+       "popularity": 6730000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -783,6 +818,7 @@
        "species": ["Gürteltier", "Gürteltiere"],
        "link":"https://de.wikipedia.org/wiki/G%C3%BCrteltiere",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Armadillo2.jpg/300px-Armadillo2.jpg",
+       "popularity": 27200000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -804,6 +840,7 @@
        "species": ["Kapuzineraffe", "Kapuzineraffen"],
        "link":"https://de.wikipedia.org/wiki/Kapuzineraffen",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Capuchin_Costa_Rica.jpg/300px-Capuchin_Costa_Rica.jpg",
+       "popularity": 7380000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -824,6 +861,7 @@
        "species": ["Wisent", "Wisente"],
        "link":"https://de.wikipedia.org/wiki/wisent",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bison_bonasus_%28Linnaeus_1758%29.jpg/300px-Bison_bonasus_%28Linnaeus_1758%29.jpg",
+       "popularity": 13300000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -846,6 +884,7 @@
        "species": ["Kleine Panda", "Kleiner Panda", "Kleine Pandas", "Kleinen Pandas", "Roter Panda", "Rote Pandas", "Katzenbär"],
        "link":"https://de.wikipedia.org/wiki/Kleiner_Panda",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ailurus_fulgens_RoterPanda_LesserPanda-2.jpg/300px-Ailurus_fulgens_RoterPanda_LesserPanda-2.jpg",
+       "popularity": 504000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -870,6 +909,7 @@
        "species": ["Waschbär", "Waschbären"],
        "link":"https://de.wikipedia.org/wiki/Waschb%C3%A4r",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Procyon_lotor_qtl2.jpg/300px-Procyon_lotor_qtl2.jpg",
+       "popularity": 53700000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -894,6 +934,7 @@
        "species": ["Tiger"],
        "link":"https://de.wikipedia.org/wiki/tiger",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg/300px-An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg",
+       "popularity": 920000000,
        "taxonomy": {
          "kingdom":"Animalia",
          "phylum":"Chordata",
@@ -918,6 +959,7 @@
        "species": ["Walross", "Walrosse"],
        "link":"https://de.wikipedia.org/wiki/walross",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Noaa-walrus22.jpg/300px-Noaa-walrus22.jpg",
+       "popularity": 26500000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -941,6 +983,7 @@
        "species": ["Takin", "Takine"],
        "link":"https://de.wikipedia.org/wiki/takin",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sichuan_Takin_Juvenile_159.jpg/300px-Sichuan_Takin_Juvenile_159.jpg",
+       "popularity": 22300000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -966,6 +1009,7 @@
        "species": ["Nebelparder"],
        "link":"https://de.wikipedia.org/wiki/nebelparder",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Neofelis_nebulosa.jpg/300px-Neofelis_nebulosa.jpg",
+       "popularity": 1780000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -989,6 +1033,7 @@
        "species": ["Honigdachs", "Honigdachse"],
        "link":"https://de.wikipedia.org/wiki/honigdachs",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Honey_badger.jpg/300px-Honey_badger.jpg",
+       "popularity": 5910000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1014,6 +1059,7 @@
        "species": ["Musang", "Musangs", "Fleckenmusang", "Fleckenmusangs"],
        "link":"https://de.wikipedia.org/wiki/fleckenmusang",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Marapatti.jpg/300px-Marapatti.jpg",
+       "popularity": 3140000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1038,6 +1084,7 @@
        "species": ["Serval", "Servale"],
        "link":"https://de.wikipedia.org/wiki/serval",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Serval_in_Tanzania.jpg/300px-Serval_in_Tanzania.jpg",
+       "popularity": 5280000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1062,6 +1109,7 @@
        "species": ["Schuppentier", "Schuppentiere"],
        "link":"https://de.wikipedia.org/wiki/schuppentiere",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pangolin_borneo.jpg/300px-Pangolin_borneo.jpg",
+       "popularity": 3420000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1083,6 +1131,7 @@
        "species": ["Fuchsmanguste", "Fuchsmangusten"],
        "link":"https://de.wikipedia.org/wiki/fuchsmanguste",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cynictis_penicillata.jpg/300px-Cynictis_penicillata.jpg",
+       "popularity": 73800,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1104,6 +1153,7 @@
        "species": ["Hyäne", "Hyänen", "Erdwolf", "Erdwölfe"],
        "link":"https://de.wikipedia.org/wiki/Hy%C3%A4nen",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Crocuta-hejda.jpg/300px-Crocuta-hejda.jpg",
+       "popularity": 13400000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1128,6 +1178,7 @@
        "species": ["Schopfhirsch", "Schopfhirsche", "Muntjak", "Muntjaks"],
        "link":"https://de.wikipedia.org/wiki/schopfhirsch",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Tufteddeer-2.jpg/300px-Tufteddeer-2.jpg",
+       "popularity": 41400,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1152,6 +1203,7 @@
        "species": ["Lori", "Loris", "Schlanklori", "Schlankloris" ],
        "link":"https://de.wikipedia.org/wiki/schlankloris",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loris_tardigradus.jpg/300px-Loris_tardigradus.jpg",
+       "popularity": 66300,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1174,6 +1226,7 @@
        "species": ["Klippschliefer", "Schliefer"],
        "link":"https://de.wikipedia.org/wiki/klippschliefer",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rock_Hyrax_%28Procavia_capensis%29_%287042223567%29.jpg/300px-Rock_Hyrax_%28Procavia_capensis%29_%287042223567%29.jpg",
+       "popularity": 601000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1195,6 +1248,7 @@
        "species": ["Mantelaffe", "Mantelaffen"],
        "link":"https://de.wikipedia.org/wiki/mantelaffe",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Colubusmonkey.JPG/300px-Colubusmonkey.JPG",
+       "popularity": 34700,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1220,6 +1274,7 @@
      "species": ["Yak", "Yaks", "Wildyak", "Wildyaks"],
        "link":"https://de.wikipedia.org/wiki/Yak",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/003_2014_08_05_Wildlebende_S%C3%A4ugetiere.jpg/320px-003_2014_08_05_Wildlebende_S%C3%A4ugetiere.jpg",
+       "popularity": 74600000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1244,6 +1299,7 @@
        "species": ["Emu", "Emus"],
        "link":"https://de.wikipedia.org/wiki/Emus",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%C3%89meu_-_M%C3%A9nagerie_du_Jardin_des_plantes.jpg/320px-%C3%89meu_-_M%C3%A9nagerie_du_Jardin_des_plantes.jpg",
+       "popularity": 63300000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1266,6 +1322,7 @@
        "mask": ["Dromedar","Dromedare","Kamel","Kamele"],
        "link":"https://de.wikipedia.org/wiki/Trampeltier",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2011_Trampeltier_1528.JPG/303px-2011_Trampeltier_1528.JPG",
+       "popularity": 3280000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1289,6 +1346,7 @@
        "mask": ["Kamel","Kamele"],
        "link":"https://de.wikipedia.org/wiki/Guanako",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Guanaco_09.24.jpg/479px-Guanaco_09.24.jpg",
+       "popularity": 4210000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1311,6 +1369,7 @@
        "mask":["Hase", "Hasen"],
        "link":"https://de.wikipedia.org/wiki/Pfeifhasen",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Pika.jpg/640px-Pika.jpg",
+       "popularity": 308000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
@@ -1332,9 +1391,10 @@
    },
    {
        "species": ["Auerhuhn","Auerhühner","Auerhahn","Auerhähne","Auerhenne","Auerhennen"],
-       "mask": ["Hahn","Hähne","Henne","Hennen","Auerwild"],
+       "mask": ["Hahn","Hähne","Henne","Hennen","Auerwild","Hühnervögel","Raufußhühner"],
        "link":"https://de.wikipedia.org/wiki/Auerhuhn",
        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tetrao_urogallus_Richard_Bartz.jpg/351px-Tetrao_urogallus_Richard_Bartz.jpg",
+       "popularity": 14800000,
        "taxonomy": {
            "kingdom":"Animalia",
            "phylum":"Chordata",
