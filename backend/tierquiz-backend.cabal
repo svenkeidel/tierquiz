@@ -1,0 +1,41 @@
+name:                tierquiz-backend
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+author:              Sven Keidel
+maintainer:          svenkeidel@gmail.com
+category:            Game
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+cabal-version:       >=1.10
+executable tierquiz-backend
+  main-is:             Main.hs
+
+  -- Modules included in this executable, other than Main.
+  other-modules:       Types
+
+  -- LANGUAGE extensions used by modules in this package.
+  other-extensions:    FlexibleContexts,
+                       FlexibleInstances,
+                       OverloadedStrings
+  build-depends:       base,
+                       aeson,
+                       bytestring,
+                       cryptonite,
+                       http-types,
+                       hvect,
+                       list-t,
+                       memory,
+                       mmorph,
+                       monad-logger,
+                       persistent,
+                       persistent-sqlite,
+                       persistent-template,
+                       Spock,
+                       stm,
+                       stm-containers,
+                       text,
+                       wai-extra
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+

@@ -60,13 +60,6 @@ data Taxonomy = Taxonomy
 instance FromJSON Taxonomy
 instance ToJSON Taxonomy
 
-readAnimals :: IO [Animal]
-readAnimals = do
-  json <- B.readFile "animals.json"
-  case A.eitherDecode json of
-    Right animals -> return animals
-    Left errMsg -> die $ "could not parse animals.json: " ++ (show errMsg)
-
 maskSpecies :: Animal -> Text -> Text
 maskSpecies animal = replaceByDots $
   (species animal) ++ (map T.toLower (species animal))

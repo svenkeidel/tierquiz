@@ -1,3 +1,7 @@
 build/
 node_modules
 output
+.stack-work
+dist-newstyle
+dist
+/backend/animals.db

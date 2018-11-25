@@ -3,17 +3,18 @@ import Button from 'react-bootstrap/lib/Button';
 import Form from 'react-bootstrap/lib/Form'
 import FormControl from 'react-bootstrap/lib/FormControl'
 import FormGroup from 'react-bootstrap/lib/FormGroup'
-import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 import Col from 'react-bootstrap/lib/Col'
 
 import './App.css';
 import animals from './animals.json';
-import { shuffle, uniformDist, expDist } from './Random.js';
+import { uniformDist } from './Random.js';
 
-import noCheckCircle from './no_check_circle.svg';
-import yesCheckCircle from './yes_check_circle.svg';
-import emptyCheckCircle from './empty_check_circle.svg';
 import levenshtein from 'js-levenshtein';
+
+import ApolloClient from 'apollo';
+import gql from 'graphql-tag';
+
+const client = new ApolloClient()
 
 const minimum = (numArray) => Math.min.apply(null, numArray);
 
@@ -56,7 +57,7 @@ const revealNth = (n) => (maskedSentences) => {
 const maskText = (animal) => (text) => {
   
   let masks = animal.species.concat(animal.species.map(s => s.toLowerCase()),
-                                    animal.hasOwnProperty('mask') ? animal.mask.concat(animal.mask.map(s => s.toLowerCase())) : new Array())
+                                    animal.hasOwnProperty('mask') ? animal.mask.concat(animal.mask.map(s => s.toLowerCase())) : [])
   return text.replace(new RegExp(masks.reverse().join("|"),'g'),"...")
 };
 
@@ -71,23 +72,23 @@ const printMaskedSentences = (animal,onClick,maskedSentences) => maskedSentences
 
 const splitIntoSentences = (text) => text.split(/\.|\n/).map(s => s.trim()).filter(s => s.length !== 0)
 
-const addOrZero = (obj1,obj2,attr) => obj1.taxonomy[attr] === obj2.taxonomy[attr] ? 1 : 0
+// const addOrZero = (obj1,obj2,attr) => obj1.taxonomy[attr] === obj2.taxonomy[attr] ? 1 : 0
   
-const similarTaxonomy = (a1,a2) =>
-   1 * addOrZero(a1,a2,'kingdom') +
-   2 * addOrZero(a1,a2,'phylum') +
-   3 * addOrZero(a1,a2,'class') +
-   4 * addOrZero(a1,a2,'superorder') +
-   5 * addOrZero(a1,a2,'order') +
-   6 * addOrZero(a1,a2,'suborder') +
-   7 * addOrZero(a1,a2,'infraorder') +
-   8 * addOrZero(a1,a2,'superfamily') +
-   9 * addOrZero(a1,a2,'family') +
-  10 * addOrZero(a1,a2,'subfamily') +
-  11 * addOrZero(a1,a2,'without_rank') +
-  11 * addOrZero(a1,a2,'tribe') +
-  12 * addOrZero(a1,a2,'genus') +
-  13 * addOrZero(a1,a2,'species')
+// const similarTaxonomy = (a1,a2) =>
+//    1 * addOrZero(a1,a2,'kingdom') +
+//    2 * addOrZero(a1,a2,'phylum') +
+//    3 * addOrZero(a1,a2,'class') +
+//    4 * addOrZero(a1,a2,'superorder') +
+//    5 * addOrZero(a1,a2,'order') +
+//    6 * addOrZero(a1,a2,'suborder') +
+//    7 * addOrZero(a1,a2,'infraorder') +
+//    8 * addOrZero(a1,a2,'superfamily') +
+//    9 * addOrZero(a1,a2,'family') +
+//   10 * addOrZero(a1,a2,'subfamily') +
+//   11 * addOrZero(a1,a2,'without_rank') +
+//   11 * addOrZero(a1,a2,'tribe') +
+//   12 * addOrZero(a1,a2,'genus') +
+//   13 * addOrZero(a1,a2,'species')
   
 const animalAttributes = [
   {attribute: "Verbreitung",    text:  (animal) => animal.distribution },
@@ -269,184 +270,103 @@ class GuessAnimal extends Component {
   }
 }
 
-class AnimalTrivia extends Component {
-  constructor(props) {
-    super(props);
-    this.animal = props.animal
-    var candidates = animals.slice(0)
-    candidates = candidates.map((a) => Object.assign(a,{similar: similarTaxonomy(a,this.animal)}))
-    candidates.sort((a1,a2) => a2.similar - a1.similar)
-    candidates.shift()
-    var selection = [this.animal]
-    while (selection.length < 4) {
-      let r = Math.floor(expDist(0.01)(0,candidates.length))
-      selection.push(candidates[r])      
-      candidates.splice(r,1)
-    }
-    selection = shuffle(selection)
-    if(this.props.attr.hasOwnProperty('text'))
-      this.state = {
-        animals: selection.map(function(animal) { return {animal:animal, text: removeSentences(props.difficulty,splitIntoSentences(props.attr.text(animal)))}; }),
-        revealed: false
-      };
-    else
-      this.state = {
-        animals: selection.map(function(animal) { return {animal:animal, image: props.attr.image(animal)}; }),
-        revealed: false
-      };
-  }
 
-  revealNth(i,n) {
-    let animalList = this.state.animals.slice()
-    animalList[i].text = revealNth(n)(animalList[i].text)
-    this.setState({animals: animalList })
-  }
+// class GameSelector extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.difficulties = [
+//       { label: "Einfach", difficulty: 1 },
+//       { label: "Mittel", difficulty: 0.75 },
+//       { label: "Schwer", difficulty: 0.5 },
+//       { label: "Sehr Schwer", difficulty: 0.25 },
+//       { label: "Extrem", difficulty: 0.01 }
+//     ];
+//     this.state = {
+//       animal:null
+//     }
+//   }
 
-  revealAnswer() {
-    this.setState({revealed:true})
-    this.props.onGuess()
-  }
+//   setDifficulty(difficulty) {
+//     this.props.onSelection(this.state.animal,difficulty)
+//   }
 
-  render() {
-    return (
-      <div>
-        <h3>{this.props.attr.attribute}</h3>
-
-        {this.state.animals.map((animal,i) =>
-          <div>
-            <CheckCircle revealed={this.state.revealed} condition={animal.animal === this.animal} onClick={() => this.revealAnswer()} />
-            { this.props.attr.hasOwnProperty('text')
-              ? <p className="trivia">{printMaskedSentences(animal.animal,(n) => this.revealNth(i,n),animal.text)}</p>
-              : <img className="animal" src={animal.image} alt="Abbildung des Tiers"/> }
-          </div>
-        )}
-      </div>
-    );
-  }
-}
-
-class CheckCircle extends Component {
-  render() {
-    if(! this.props.revealed)
-      return <img className="checkcircle" src={emptyCheckCircle} onClick={() => this.props.onClick()} alt="empty check circle"/>;
-    if(this.props.condition === true)
-      return <img className="checkcircle" src={yesCheckCircle} onClick={() => this.props.onClick()} alt="yes check circle"/>;
-    if(this.props.condition === false)
-      return <img className="checkcircle" src={noCheckCircle} onClick={() => this.props.onClick()} alt="no check circle"/>;
-  }
-}
-
-class GuessTrivia extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      lastAttr: 1
-    };
-  }
+//   setAnimal(animal) {
+//     this.setState({animal:animal})
+//   }
   
-  nextTrivia() {
-    this.setState({lastAttr:this.state.lastAttr+1})
-  }
+//   selectRandomAnimal() {
+//     let i = Math.floor(Math.random() * (animals.length-1))
+//     this.setAnimal(animals[i])
+//   }
   
-  render() {
-    return (
-      <div>
-        <h1>Errate Trivia des Tieres {this.props.animal.species[0]}</h1>
-        {animalAttributes.slice(0,this.state.lastAttr).map((attr,i) => <AnimalTrivia key={i.toString()} animal={this.props.animal} attr={animalAttributes[i]} difficulty={this.props.difficulty} onGuess={() => this.nextTrivia()} />)}
-      </div>
-    );
-  }
-}
+//   render() {
+//     if(!this.state.animal)
+//       return (
+//         <div>
+//           <h1>Wähle ein Tier</h1>
+//           <p><Button onClick={() => this.selectRandomAnimal()}>Zufällig</Button></p>
+//           {animals.map((animal,i) => <Button key={i.toString()} onClick={() => this.setAnimal(animal)}>{i+1}</Button>)}
+//         </div>
+//       );
 
+//     return (
+//       <div>
+//         <h1>Wähle eine Schwierigkeitsstuffe</h1>
+//         {this.difficulties.map((d,i) =>
+//          <Button key={i.toString()} onClick={() => this.setDifficulty(d.difficulty)}>{d.label}</Button>)}
+//       </div>
+//     );
+//   }
+// }
 
-class GameSelector extends Component {
-  constructor(props) {
-    super(props);
-    this.difficulties = [
-      { label: "Einfach", difficulty: 1 },
-      { label: "Mittel", difficulty: 0.75 },
-      { label: "Schwer", difficulty: 0.5 },
-      { label: "Sehr Schwer", difficulty: 0.25 },
-      { label: "Extrem", difficulty: 0.01 }
-    ];
-    this.state = {
-      game:null,
-      animal:null
-    }
-  }
-
-  setDifficulty(difficulty) {
-    this.props.onSelection(this.state.game,this.state.animal,difficulty)
-  }
-
-  setAnimal(animal) {
-    this.setState({animal:animal})
-  }
+// class App extends Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       animal: null,
+//       difficulty: null
+//     }
+//   }
   
-  selectRandomAnimal() {
-    let i = Math.floor(Math.random() * (animals.length-1))
-    this.setAnimal(animals[i])
-  }
-  
-  guessAnimal() {
-    this.setState({game:"guessAnimal"})
-  }
+//   selectAnimal(animal,difficulty) {
+//     this.setState({animal:animal, difficulty:difficulty})
+//   }
 
-  guessTrivia() {
-    this.setState({game:"guessTrivia"})
-  }
-
-  render() {
-    if(!this.state.game)
-      return (
-        <div>
-          <h1>Wähle ein Spiel</h1>
-          <Button onClick={() => this.guessAnimal()}>Rate das Tier</Button>
-          <Button onClick={() => this.guessTrivia()}>Tier Trivia</Button>
-        </div>
-      );
-
-    if(!this.state.animal)
-      return (
-        <div>
-          <h1>Wähle ein Tier</h1>
-          <p><Button onClick={() => this.selectRandomAnimal()}>Zufällig</Button></p>
-          {animals.map((animal,i) => <Button key={i.toString()} onClick={() => this.setAnimal(animal)}>{i+1}</Button>)}
-        </div>
-      );
-
-    return (
-      <div>
-        <h1>Wähle eine Schwierigkeitsstuffe</h1>
-        {this.difficulties.map((d,i) =>
-         <Button key={i.toString()} onClick={() => this.setDifficulty(d.difficulty)}>{d.label}</Button>)}
-      </div>
-    );
-  }
-}
+//   render() {
+//     if(! this.state.animal)
+//       return <GameSelector onSelection={(animal,difficulty) => this.selectAnimal(animal,difficulty)}/>;
+//     else
+//       return <GuessAnimal animal={this.state.animal} difficulty={this.state.difficulty}/>;
+//   }
+// }
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      game: null,
       animal: null,
-      difficulty: null
+      animals: null,
     }
-  }
-  
-  selectAnimal(game,animal,difficulty) {
-    this.setState({game:game, animal:animal, difficulty:difficulty})
+    var that = this;
+
+    client.query({
+      query: gql`
+        query {
+          animals {
+            id
+            popularity
+          }
+        }
+      `
+    }).then(data => that.setState({animals: data}))
+      .catch(error => console.error(error));
   }
 
   render() {
-    if(! this.state.animal)
-      return <GameSelector onSelection={(game,animal,difficulty) => this.selectAnimal(game,animal,difficulty)}/>;
-    else if(this.state.game === "guessAnimal")
-      return <GuessAnimal animal={this.state.animal} difficulty={this.state.difficulty}/>;
-    else
-      return <GuessTrivia animal={this.state.animal} difficulty={this.state.difficulty}/>;
+    return animals;
+    // return <GuessAnimal animal={this.state.animal} difficulty={this.state.difficulty}/>;
   }
 }
+
 
 export default App;
